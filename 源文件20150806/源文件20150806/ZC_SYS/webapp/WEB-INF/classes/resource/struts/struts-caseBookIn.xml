@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="caseBookIn" extends="common" namespace="/caseBookIn">
+		<action name="list" class="CaseBookInAction" method="list">
+			<result name="success">/WEB-INF/pages/caseBookIn/list.jsp</result>
+			<result name="fail">/WEB-INF/pages/caseBookIn/fail.jsp</result>
+		</action>
+		<action name="show" class="CaseBookInAction" method="show">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/fileDown</param> 
+				<param name="actionName">caseBookDown.do</param>
+				<param name="id">${id}</param>
+				<param name="stamp">${stamp}</param>
+				<param name="sign_msg">${sign_msg}</param>
+				<param name="fileName">${fileName}</param>
+			</result>
+			<result name="fail">/WEB-INF/pages/caseBookIn/fail.jsp</result>
+		</action>
+	</package>
+</struts>
+

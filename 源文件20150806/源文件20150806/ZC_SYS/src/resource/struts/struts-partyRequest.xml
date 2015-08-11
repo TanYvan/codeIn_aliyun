@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="partyRequest" extends="common" namespace="/partyRequest">
+		<action name="toInsertPartyRequest" class="PartyRequestAction" method="toInsertPartyRequest">
+			<result name="success">/WEB-INF/pages/partyRequest/new.jsp</result>
+		</action>
+		<action name="insertPartyRequest" class="PartyRequestAction" method="insertPartyRequest">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">qqxx</param>
+			</result>
+		</action>
+		<action name="toUpdatePartyRequest" class="PartyRequestAction" method="toUpdatePartyRequest">
+			<result name="success">/WEB-INF/pages/partyRequest/edit.jsp</result>
+		</action>
+		<action name="updatePartyRequest" class="PartyRequestAction" method="updatePartyRequest">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">qqxx</param>
+			</result>
+		</action>
+		<action name="deletePartyRequest" class="PartyRequestAction" method="deletePartyRequest">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">qqxx</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

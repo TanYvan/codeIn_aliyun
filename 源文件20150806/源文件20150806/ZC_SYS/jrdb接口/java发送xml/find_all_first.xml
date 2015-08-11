@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+<sql></sql>
+<stamp>2013-01-25 10:10:27</stamp>
+<sign_msg>00007b18bc38649a4c0bc629e7123d</sign_msg><!--md5(Stamp+key)-->
+<select>name,code,sex</select><!--字段,字段-->
+<from>case,user</from><!--表一，表二-->
+<joins>join role on user.r_ir=role_id</joins><!--表一，表二-->
+<conditions><!--sql的where语句-->
+  <condition>name=? and code=? and age=?</condition>
+  <condition>hant</condition>
+  <condition>0002</condition>
+  <condition>36</condition>
+</conditions>
+<group>sex</group><!--sql的group-->
+<having><!--sql的-->
+  <condition>name=? and code=? and age=?</condition>
+  <condition>hant</condition>
+  <condition>0002</condition>
+  <condition>36</condition>
+</having>
+<offset>5</offset><!--sql的offset-->
+<limit>10</limit><!--sql的limit-->
+<order>code asc, name desc</order><!--sql的order-->
+</xml>

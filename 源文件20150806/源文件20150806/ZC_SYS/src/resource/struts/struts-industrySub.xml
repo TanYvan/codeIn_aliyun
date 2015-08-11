@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="industrySub" extends="common" namespace="/industrySub">
+		<action name="findIndustrySubList" class="IndustrySubAction" method="findIndustrySubList">
+			<result name="success">/WEB-INF/pages/industrySub/list.jsp</result>
+		</action>
+		<action name="insertIndustrySub" class="IndustrySubAction" method="insertIndustrySub">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/industrySub</param> 
+				<param name="actionName">findIndustrySubList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="deleteIndustrySub" class="IndustrySubAction" method="deleteIndustrySub">
+		    <result name="success" type="redirectAction">
+			    <param name="namespace">/industrySub</param> 
+				<param name="actionName">findIndustrySubList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		
+	</package>
+</struts>
+

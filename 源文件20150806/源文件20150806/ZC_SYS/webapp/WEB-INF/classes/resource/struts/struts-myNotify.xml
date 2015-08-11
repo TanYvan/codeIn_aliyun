@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="myNotify" extends="common" namespace="/myNotify">
+		<action name="findMyNotifyList" class="MyNotifyAction" method="findMyNotifyList">
+			<result name="success">/WEB-INF/pages/myNotify/list.jsp</result>
+		</action>
+		<action name="showMyNotify" class="MyNotifyAction" method="showMyNotify">
+			<result name="success">/WEB-INF/pages/myNotify/show.jsp</result>
+		</action>
+	</package>
+</struts>
+

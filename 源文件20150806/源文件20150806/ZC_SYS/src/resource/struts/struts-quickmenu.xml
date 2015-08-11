@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="qucikmenu" extends="common" namespace="/quickmenu">
+		<action name="findMenuList" class="QuickMenuAction" method="findMenuList">
+		    <result name="success">/WEB-INF/pages/role/role_main1.jsp</result>
+		</action>
+		<action name="insertMenu" class="QuickMenuAction" method="insertMenu">
+			<result name="success" type="redirect">/quickmenu/findMenuList.do?roleCode=${roleCode}
+			</result>
+		</action>
+		<action name="toInsertMenu" class="QuickMenuAction" method="toInsertMenu">
+			<result name="success">/WEB-INF/pages/role/new_main1.jsp</result>
+		</action>
+		<action name="toUpdateMenu" class="QuickMenuAction" method="toUpdateMenu">
+			<result name="success">/WEB-INF/pages/role/edit_main1.jsp</result>
+		</action>
+		<action name="updateMenu" class="QuickMenuAction" method="updateMenu">
+			<result name="success" type="redirect">/quickmenu/findMenuList.do?roleCode=${roleCode}
+			</result>
+		</action>
+		<action name="deleteMenu" class="QuickMenuAction" method="deleteMenu">
+		<result name="success" type="redirect">/quickmenu/findMenuList.do?roleCode=${roleCode}
+			</result>
+		</action>
+        <action name="defTree" class="QuickMenuAction" method="defTree">
+            <result name="success">/WEB-INF/pages/role/role_main.jsp</result>
+		</action>
+		<action name="checkSameKey" class="QuickMenuAction" method="checkSameKey">
+			<result name="result" type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

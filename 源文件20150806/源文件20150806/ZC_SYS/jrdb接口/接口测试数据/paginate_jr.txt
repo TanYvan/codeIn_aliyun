@@ -1,0 +1,32 @@
+http://192.168.23.179:3000/jrdb/paginate
+
+
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+<stamp>2013-01-25 10:10:27</stamp>
+<sign_msg>00007b18bc38649a4c0bc629e7123d</sign_msg>
+<select>name,code</select>
+<from>pages</from>
+<conditions>
+  <condition>name=? and code=?</condition>
+  <condition>hant</condition>
+  <condition>0002</condition>
+</conditions>
+<group></group>
+<having>
+<condition>1=1</condition>
+</having>
+<order>code asc</order>
+<per_page>2</per_page>
+<page>1</page>
+<params>
+  <param>
+	<name></name>
+	<val></val>
+  </param>
+  <param>
+	<name></name>
+	<val></val>
+  </param>
+</params>
+</xml>

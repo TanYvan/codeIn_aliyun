@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="partyCaseMessage" extends="common" namespace="/partyCaseMessage">
+		<action name="list" class="PartyCaseMessageAction" method="list">
+			<result name="success">/WEB-INF/pages/partyCaseMessage/list.jsp</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/partyCaseIn</param> 
+				<param name="actionName">findPartyCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/partyCaseMessage/list.do</param>
+			</result>
+		</action>
+
+		<action name="insert" class="PartyCaseMessageAction" method="insert">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/partyCaseMessage</param> 
+				<param name="actionName">list.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

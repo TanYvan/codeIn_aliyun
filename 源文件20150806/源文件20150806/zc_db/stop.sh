@@ -1,0 +1,1 @@
+mongrel_rails stop -P /usr/local/zc_db/log/mongrel_pid/mongrel_3000.pid

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="arbitmanCaseAttIn" extends="common" namespace="/arbitmanCaseAttIn">
+		<action name="findArbitmanCaseAttInList" class="ArbitmanCaseAttInAction" method="findArbitmanCaseAttInList">
+			<result name="success">/WEB-INF/pages/arbitmanCaseAttIn/list.jsp</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/arbitmanCaseIn</param> 
+				<param name="actionName">findArbitmanCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/arbitmanCaseAttIn/findArbitmanCaseAttInList.do</param>
+			</result>
+		</action>
+		<action name="toInsertArbitmanCaseAttIn" class="ArbitmanCaseAttInAction" method="toInsertArbitmanCaseAttIn" >
+			<result name="success">/WEB-INF/pages/arbitmanCaseAttIn/new.jsp</result>
+		</action>
+		<action name="insertArbitmanCaseAttIn" class="ArbitmanCaseAttInAction" method="insertArbitmanCaseAttIn">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/arbitmanCaseAttIn</param> 
+				<param name="actionName">findArbitmanCaseAttInList.do</param>
+				<param name="error">${error}</param>
+			</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/arbitmanCaseIn</param> 
+				<param name="actionName">findArbitmanCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/arbitmanCaseAttIn/findArbitmanCaseAttInList.do</param>
+			</result>
+		</action>
+		<action name="downFile" class="ArbitmanCaseAttInAction" method="downFile">
+		    <result name="success" type="stream">  
+		        <param name="contentType">application/octet-stream</param>  
+		        <param name="contentDisposition">filename="${uploadFileName}"</param>  
+		        <param name="inputName">downLoadFile</param>  
+		    </result>
+		    <result name="select_case" type="redirectAction">
+			    <param name="namespace">/arbitmanCaseIn</param> 
+				<param name="actionName">findArbitmanCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/arbitmanCaseAttIn/findArbitmanCaseAttInList.do</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

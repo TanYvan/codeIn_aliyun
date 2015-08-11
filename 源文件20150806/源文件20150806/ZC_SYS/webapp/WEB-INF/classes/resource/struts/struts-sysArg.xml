@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="sysArg" extends="common" namespace="/sysArg">
+		<action name="findSysArgList" class="SysArgAction" method="findSysArgList">
+			<result name="success">/WEB-INF/pages/sysArg/list.jsp</result>
+		</action>
+		
+		<action name="toUpdateSysArg" class="SysArgAction" method="toUpdateSysArg">
+			<result name="success">/WEB-INF/pages/sysArg/edit.jsp</result>
+		</action>
+		
+		<action name="updateSysArg" class="SysArgAction" method="updateSysArg">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/sysArg</param> 
+				<param name="actionName">findSysArgList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		
+		<action name="checkSameKey" class="SysArgAction" method="checkSameKey">
+			<result name="result" type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

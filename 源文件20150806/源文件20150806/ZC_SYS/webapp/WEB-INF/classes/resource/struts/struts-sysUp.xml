@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="sysUp" extends="common" namespace="/sysUp">
+		<action name="list" class="SysUpAction" method="list">
+			<result name="success">/WEB-INF/pages/sysUp/list.jsp</result>
+		</action>
+		
+		<action name="down" class="SysUpAction" method="down">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/sysUp</param> 
+				<param name="actionName">list.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		
+		<action name="flush" class="SysUpAction" method="flush">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/sysUp</param> 
+				<param name="actionName">list.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+
+	</package>
+</struts>
+

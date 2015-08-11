@@ -1,0 +1,23 @@
+http://192.168.23.179:3000/jrdb/find_all_first
+
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+<stamp>2013-01-25 10:10:27</stamp>
+<sign_msg>00007b18bc38649a4c0bc629e7123d</sign_msg>
+<select>name,code,count(id) as ccc</select>
+<from>pages</from>
+<joins></joins>
+<conditions>
+  <condition>name=? and code=? and age=?</condition>
+  <condition>hant</condition>
+  <condition>0002</condition>
+  <condition>36</condition>
+</conditions>
+<group>code,name</group>
+<having>
+<condition>1=1</condition>
+</having>
+<offset></offset>
+<limit></limit>
+<order></order>
+</xml>

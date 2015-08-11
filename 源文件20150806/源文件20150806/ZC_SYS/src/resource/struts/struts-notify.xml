@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="notify" extends="common" namespace="/notify">
+		<action name="findNotifyList" class="NotifyAction" method="findNotifyList">
+			<result name="success">/WEB-INF/pages/notify/list.jsp</result>
+		</action>
+		<action name="toInsertNotify" class="NotifyAction" method="toInsertNotify">
+			<result name="success">/WEB-INF/pages/notify/new.jsp</result>
+		</action>
+		<action name="insertNotify" class="NotifyAction" method="insertNotify">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">notify</param> 
+				<param name="actionName">findNotifyList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdateNotify" class="NotifyAction" method="toUpdateNotify">
+			<result name="success">/WEB-INF/pages/notify/edit.jsp</result>
+		</action>
+		<action name="updateNotify" class="NotifyAction" method="updateNotify">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">notify</param> 
+				<param name="actionName">findNotifyList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="deleteNotify" class="NotifyAction" method="deleteNotify">
+		    <result name="success">/WEB-INF/pages/notify/list.jsp</result>
+		</action>
+	</package>
+</struts>
+

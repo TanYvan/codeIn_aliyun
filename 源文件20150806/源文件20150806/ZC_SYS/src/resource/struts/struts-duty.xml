@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="duty" extends="common" namespace="/duty">
+		<action name="toLogin" class="UserAction" method="toLogin">
+			<result name="success">/tindex.jsp</result>
+		</action>
+		<action name="login" class="UserAction" method="login">
+			<result name="success">/WEB-INF/pages/user/login.jsp</result>
+		</action>
+		<action name="findUserList" class="UserAction" method="findUserList">
+			<result name="success">/WEB-INF/pages/user/list.jsp</result>
+		</action>
+		<action name="insertUser" class="UserAction" method="insertUser">
+			<result name="success">/WEB-INF/pages/user/list.jsp</result>
+		</action>
+		<action name="updateUser" class="UserAction" method="updateUser">
+			<result name="success">/WEB-INF/pages/user/list.jsp</result>
+		</action>
+		<action name="deleteUser" class="UserAction" method="deleteUser">
+		</action>
+		<action name="toUser">
+			<result name="success">/WEB-INF/pages/user/list.jsp</result>
+		</action>
+		<action name="toUpdateUser" class="UserAction" method="toUpdateUser">
+			<result name="success">/WEB-INF/pages/user/edit.jsp</result>
+		</action>
+		<action name="back">
+			<result name="success">/WEB-INF/pages/user/list.jsp</result>
+		</action>
+		<action name="toInsertUser">
+			<result name="success">/WEB-INF/pages/user/new.jsp</result>
+		</action>
+		<action name="toChangePassWord" class="UserAction" method="toChangePassWord">
+			<result name="success">/WEB-INF/pages/user/change_password.jsp</result>
+		</action>
+		<action name="changePassWord" class="UserAction" method="changePassWord">
+			<result name="result" type="json">
+			     <param name="root">result</param>
+			</result>
+		</action>
+		
+	</package>
+</struts>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="user" extends="common" namespace="/user">
+		<action name="findUserList" class="UserAction" method="findUserList">
+			<result name="success">/WEB-INF/pages/user/list.jsp</result>
+		</action>
+		<action name="toInsertUser" class="UserAction" method="toInsertUser">
+			<result name="success">/WEB-INF/pages/user/new.jsp</result>
+		</action>
+		<action name="insertUser" class="UserAction" method="insertUser" >
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/user</param> 
+				<param name="actionName">findUserList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdateUser" class="UserAction" method="toUpdateUser">
+			<result name="success">/WEB-INF/pages/user/edit.jsp</result>
+		</action>
+		<action name="updateUser" class="UserAction" method="updateUser">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/user</param> 
+				<param name="actionName">findUserList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="showUser" class="UserAction" method="showUser">
+		    <result name="success">/WEB-INF/pages/user/show.jsp</result>
+		</action>
+		<action name="deleteUser" class="UserAction" method="deleteUser">
+		    <result name="success" type="redirectAction">
+			    <param name="namespace">/user</param> 
+				<param name="actionName">findUserList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toChangePassWord" class="UserAction" method="toChangePassWord">
+			<result name="success">/WEB-INF/pages/user/change_password.jsp</result>
+		</action>
+		<action name="changePassWord" class="UserAction" method="changePassWord">
+			<result name="result" type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

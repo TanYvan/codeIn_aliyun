@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="assistantCaseIn" extends="common" namespace="/assistantCaseIn">
+		<action name="findAssistantCaseInList" class="AssistantCaseInAction" method="findAssistantCaseInList">
+			<result name="success">/WEB-INF/pages/assistantCaseIn/list.jsp</result>
+		</action>
+		<action name="showAssistantCaseIn" class="AssistantCaseInAction" method="showAssistantCaseIn">
+			<result name="success">/WEB-INF/pages/assistantCaseIn/show.jsp</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/assistantCaseIn</param> 
+				<param name="actionName">findAssistantCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/assistantCaseIn/showAssistantCaseIn.do</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

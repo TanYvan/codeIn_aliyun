@@ -1,0 +1,18 @@
+http://192.168.23.179:3000/jrdb/create
+
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+<stamp>2013-01-25 10:10:27</stamp>
+<sign_msg>00007b18bc38649a4c0bc629e7123d</sign_msg>
+<from>pages</from>
+<values>
+    <value>
+    <name>code</name>
+	<val>0001</val>
+  </value>
+  <value>
+    <name>name</name>
+	<val>aaa</val>
+  </value>
+</values>
+</xml>

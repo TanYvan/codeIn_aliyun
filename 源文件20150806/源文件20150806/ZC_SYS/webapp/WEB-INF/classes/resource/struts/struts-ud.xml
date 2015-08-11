@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="ud" extends="common" namespace="/ud">
+		<action name="toUpdateUd" class="UdAction" method="toUpdateUd">
+			<result name="success">/WEB-INF/pages/ud/list.jsp</result>
+		</action>
+		<action name="toInsertUd" class="UdAction" method="toInsertUd">
+			<result name="success">/WEB-INF/pages/ud/select.jsp</result>
+		</action>
+		<action name="insertUd" class="UdAction" method="insertUd">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/ud</param> 
+				<param name="actionName">toInsertUd.do</param>
+				<param name="user">${user}</param>
+			</result>
+		</action>
+		<action name="deleteUd" class="UdAction" method="deleteUd">
+			<result name="success" type="redirectAction">
+				<param name="namespace">/ud</param> 
+				<param name="actionName">toUpdateUd.do</param> 
+				<param name="user">${user}</param>  
+			</result>
+		</action>
+	</package>
+</struts>
+

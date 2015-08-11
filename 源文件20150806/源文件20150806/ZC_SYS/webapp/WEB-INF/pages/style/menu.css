@@ -1,0 +1,71 @@
+ body{ margin 0px;
+       font-size: 9pt;
+       background-image: url(../image/bgmenu.gif); 
+	     background-position:left;
+	     background-repeat: repeat-y;}  
+	     
+#center { margin-right: auto; margin-left: auto; } 
+       
+td{ font-size: 9pt; }
+
+td.menu1,td.menu {
+	COLOR: #044455;
+	CURSOR: hand;
+	background-image: url(../image/bgmenu_1_blue.gif); 
+	background-position:left center;
+	background-repeat: no-repeat;
+	height:23px;
+	text-indent: 24px;
+}
+
+td.menu A:link   { COLOR: #044455; TEXT-DECORATION: none}
+td.menu A:visited{ COLOR: #044455; TEXT-DECORATION: none}
+td.menu A:active { COLOR: #044455; TEXT-DECORATION: none}
+td.menu A:hover  { COLOR: #cc3333; TEXT-DECORATION: none}
+
+td.menu1 A:link   { COLOR: #044455; TEXT-DECORATION: none}
+td.menu1 A:visited{ COLOR: #044455; TEXT-DECORATION: none}
+td.menu1 A:active { COLOR: #044455; TEXT-DECORATION: none}
+td.menu1 A:hover  { COLOR: #cc3333; TEXT-DECORATION: none}
+
+td.menu2 {COLOR: #044455; 
+	         background-image: url(../image/bgmenu_3_blue.gif); 
+	         background-repeat: no-repeat;
+	         background-position: 12px;
+	         BACKGROUND-COLOR: #ffffff;  
+	         border-bottom-width: 1px;
+	         border-bottom-style: solid;
+	         border-bottom-color: #d8e9ec;
+	         font-size: 12px;
+	         text-indent: 23px;
+	         height: 20px;}  
+
+td.menu2 A:link   { COLOR: #044455; TEXT-DECORATION: none}
+td.menu2 A:visited{ COLOR: #044455; TEXT-DECORATION: none}
+td.menu2 A:active { COLOR: #044455; TEXT-DECORATION: none}
+td.menu2 A:hover  { COLOR: #cc3333; TEXT-DECORATION: underline}
+
+td.menu3 { COLOR: #666666;
+	         background-image: url(../image/bgmenu_3_blue.gif); 
+	         background-repeat: no-repeat;
+	         background-position: 20px;
+	         BACKGROUND-COLOR: #e2f7fb;  
+	         font-size: 12px;
+	         text-indent: 30px;
+	         height: 20px;}
+
+td.menu3 A:link   { COLOR: #555555; TEXT-DECORATION: none}
+td.menu3 A:visited{ COLOR: #555555; TEXT-DECORATION: none}
+td.menu3 A:active { COLOR: #555555; TEXT-DECORATION: none}
+td.menu3 A:hover  { COLOR: #666666; TEXT-DECORATION: underline}
+
+td.menu4 { COLOR: #0aafc6;
+	         BACKGROUND-COLOR: #ffffff;
+	         font-size: 12px;
+	         text-indent: 30px;
+	         height: 20px;}
+
+td.menu4 A:link    { COLOR: #0aafc6;	TEXT-DECORATION: none}
+td.menu4 A:visited { COLOR: #0aafc6;	TEXT-DECORATION: none}
+td.menu4 A:active  { COLOR: #0aafc6;	TEXT-DECORATION: none}
+td.menu4 A:hover   { COLOR: #fd4e01;	TEXT-DECORATION: underline}

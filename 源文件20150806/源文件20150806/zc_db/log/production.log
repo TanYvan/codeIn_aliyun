@@ -1,0 +1,2002 @@
+# Logfile created on Wed Mar 02 22:21:54 +0800 2011 by logger.rb/22285
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-28 22:11:47) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/welcomme/login" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-28 22:12:06) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/welcomme/login" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#login (for 127.0.0.1 at 2011-03-28 22:12:10) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"login", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.03125 (100%) | DB: 1.89062 (6050%) | 200 OK [http://localhost/welcome/login]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-03-28 22:12:18) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"code"=>"zc", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Rendering welcome/login
+Completed in 0.07812 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.04688 (60%) | 200 OK [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-03-28 22:12:24) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"code"=>"zc1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Rendering welcome/login
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-03-28 22:12:27) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"code"=>"ZC1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Rendering welcome/login
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-03-28 22:12:32) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"code"=>"zl1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Redirected to http://localhost:3000/welcome/main
+Completed in 0.04688 (21 reqs/sec) | DB: 0.04688 (100%) | 302 Found [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-03-28 22:12:32) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.14062 (7 reqs/sec) | Rendering: 0.03125 (22%) | DB: 0.10938 (77%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-03-28 22:12:33) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.09375 (10 reqs/sec) | Rendering: 0.01562 (16%) | DB: 0.06250 (66%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-03-28 22:12:33) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.45312 (2 reqs/sec) | Rendering: 0.14062 (31%) | DB: 0.14062 (31%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-03-28 22:12:33) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-03-28 22:12:33) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-03-28 22:12:33) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing RemindController#list (for 127.0.0.1 at 2011-03-28 22:12:34) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"list", "controller"=>"remind"}
+Rendering remind/list
+Completed in 0.09375 (10 reqs/sec) | Rendering: 0.07812 (83%) | DB: 0.00000 (0%) | 200 OK [http://localhost/remind/list]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-03-28 22:12:44) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.17188 (5 reqs/sec) | Rendering: 0.14062 (81%) | DB: 0.03125 (18%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing PartyAgentController#agent_list (for 127.0.0.1 at 2011-03-28 22:14:41) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"agent_list", "controller"=>"party_agent"}
+Rendering party_agent/agent_list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.14062 (900%) | 200 OK [http://localhost/party_agent/agent_list]
+
+
+Processing CasePController#list (for 127.0.0.1 at 2011-03-28 22:14:41) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"contr_r"=>"party_agent", "action"=>"list", "controller"=>"case_p", "act_r"=>"agent_list"}
+Rendering case_p/list
+Completed in 0.31250 (3 reqs/sec) | Rendering: 0.10938 (35%) | DB: 0.20312 (65%) | 200 OK [http://localhost/case_p/list?contr_r=party_agent&act_r=agent_list]
+
+
+Processing CasePController#select (for 127.0.0.1 at 2011-03-28 22:14:44) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"contr_r"=>"party_agent", "action"=>"select", "id"=>"29", "controller"=>"case_p", "act_r"=>"agent_list"}
+Redirected to http://localhost:3000/party_agent/agent_list
+Completed in 0.01562 (64 reqs/sec) | DB: 0.01562 (100%) | 302 Found [http://localhost/case_p/select/29?act_r=agent_list&contr_r=party_agent]
+
+
+Processing PartyAgentController#agent_list (for 127.0.0.1 at 2011-03-28 22:14:44) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"agent_list", "controller"=>"party_agent"}
+Rendering party_agent/agent_list
+Completed in 0.06250 (16 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.06250 (100%) | 200 OK [http://localhost/party_agent/agent_list]
+
+
+Processing PartyAgentController#agent_new (for 127.0.0.1 at 2011-03-28 22:14:46) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"agent_new", "controller"=>"party_agent"}
+Rendering party_agent/agent_new
+Completed in 0.06250 (16 reqs/sec) | Rendering: 0.04688 (75%) | DB: 0.01562 (25%) | 200 OK [http://localhost/party_agent/agent_new]
+
+
+Processing PartyAgentController#agent_create (for 127.0.0.1 at 2011-03-28 22:14:48) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"commit"=>"提交", "action"=>"agent_create", "agent"=>{"company"=>"", "name"=>"", "postcode"=>"", "duty"=>"", "post_tel_code"=>"", "tel"=>"", "mobiletel"=>"", "status"=>"0001", "addr"=>"", "email"=>""}, "controller"=>"party_agent"}
+Rendering party_agent/agent_new
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/party_agent/agent_create]
+
+
+Processing PartyController#party_list (for 127.0.0.1 at 2011-03-28 22:14:52) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"party_list", "controller"=>"party"}
+Rendering party/party_list
+Completed in 0.04688 (21 reqs/sec) | Rendering: 0.01562 (33%) | DB: 0.06250 (133%) | 200 OK [http://localhost/party/party_list]
+
+
+Processing PartyController#party_new (for 127.0.0.1 at 2011-03-28 22:14:53) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"party_new", "controller"=>"party"}
+Rendering party/party_new
+Completed in 0.10938 (9 reqs/sec) | Rendering: 0.04688 (42%) | DB: 0.04688 (42%) | 200 OK [http://localhost/party/party_new]
+
+
+Processing PartyController#p_list (for 127.0.0.1 at 2011-03-28 22:14:55) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"p_list", "controller"=>"party", "partyname"=>"j"}
+Completed in 0.06250 (16 reqs/sec) | Rendering: 0.03125 (50%) | DB: 0.01562 (25%) | 200 OK [http://localhost/party/p_list?partyname=j]
+
+
+Processing PartyController#p_list (for 127.0.0.1 at 2011-03-28 22:14:55) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"p_list", "controller"=>"party", "partyname"=>"jbj"}
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/party/p_list?partyname=jbj]
+
+
+Processing PartyController#p_list (for 127.0.0.1 at 2011-03-28 22:14:55) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"p_list", "controller"=>"party", "partyname"=>"jbjk"}
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/party/p_list?partyname=jbjk]
+
+
+Processing PartyController#p_list (for 127.0.0.1 at 2011-03-28 22:14:55) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"p_list", "controller"=>"party", "partyname"=>"jbjk"}
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/party/p_list?partyname=jbjk]
+
+
+Processing PartyController#p_list (for 127.0.0.1 at 2011-03-28 22:14:55) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"p_list", "controller"=>"party", "partyname"=>"jbjkjh"}
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/party/p_list?partyname=jbjkjh]
+
+
+Processing PartyController#p_list (for 127.0.0.1 at 2011-03-28 22:14:55) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"p_list", "controller"=>"party", "partyname"=>"jbjkjhk"}
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/party/p_list?partyname=jbjkjhk]
+
+
+Processing PartyController#p_list (for 127.0.0.1 at 2011-03-28 22:14:56) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"p_list", "controller"=>"party", "partyname"=>"jbjkjhk"}
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/party/p_list?partyname=jbjkjhk]
+
+
+Processing PartyController#party_create (for 127.0.0.1 at 2011-03-28 22:15:02) [POST]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"commit"=>"提交", "action"=>"party_create", "party"=>{"isperson"=>"2", "postcode"=>"", "commissary"=>"", "dutyname"=>"0001", "tel"=>"", "post_tel_code"=>"", "area"=>"001", "mobiletel"=>"", "profession"=>"", "addr"=>"", "partyname"=>"jbjkjhk", "email"=>""}, "controller"=>"party"}
+Redirected to http://localhost:3000/party/party_list
+Completed in 0.01562 (64 reqs/sec) | DB: 0.01562 (100%) | 302 Found [http://localhost/party/party_create]
+
+
+Processing PartyController#party_list (for 127.0.0.1 at 2011-03-28 22:15:03) [GET]
+  Session ID: d2780c2049550f1645ca05c674b5a1be
+  Parameters: {"action"=>"party_list", "controller"=>"party"}
+Rendering party/party_list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/party/party_list]
+
+
+Processing WelcomeController#login (for 127.0.0.1 at 2011-04-22 11:56:25) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"login", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.06250 (16 reqs/sec) | Rendering: 0.04688 (75%) | DB: 1.85938 (2975%) | 200 OK [http://localhost/welcome/login]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-04-22 11:56:37) [POST]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"code"=>"zl_1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Rendering welcome/login
+Completed in 0.07812 (12 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.07812 (100%) | 200 OK [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-04-22 11:56:40) [POST]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"code"=>"zl1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Redirected to http://localhost/welcome/main
+Completed in 0.04688 (21 reqs/sec) | DB: 0.01562 (33%) | 302 Found [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-04-22 11:56:40) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.15625 (6 reqs/sec) | Rendering: 0.01562 (10%) | DB: 0.14062 (90%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-04-22 11:56:40) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.14062 (7 reqs/sec) | Rendering: 0.01562 (11%) | DB: 0.09375 (66%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-04-22 11:56:40) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.53125 (1 reqs/sec) | Rendering: 0.04688 (8%) | DB: 0.14062 (26%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-04-22 11:56:41) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-04-22 11:56:41) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing RemindController#list (for 127.0.0.1 at 2011-04-22 11:56:41) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"list", "controller"=>"remind"}
+Rendering remind/list
+Completed in 0.09375 (10 reqs/sec) | Rendering: 0.07812 (83%) | DB: 0.01562 (16%) | 200 OK [http://localhost/remind/list]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-04-22 11:56:42) [GET]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-04-22 11:56:52) [POST]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.21875 (4 reqs/sec) | Rendering: 0.17188 (78%) | DB: 0.07812 (35%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-04-22 11:57:36) [POST]
+  Session ID: cb89f403d69837c4ba317108721289fb
+  Parameters: {"hant_search_1_text"=>"咨询流水号  包含  20100055    ", "contr_r"=>"", "hant_search_1_r"=>"recevice_code,,,char,,, like '%,,,text,,,20100055,,, and ;;;amount,,,number,,, >= ,,,text,,,,,, and ;;;recevice_code,,,char,,, like '%,,,text,,,,,, and ;;;recevice_code,,,char,,, like '%,,,text,,,,,, and ;;;recevice_code,,,char,,, like '%,,,text,,,,,, and ", "Submit"=>"查询", "action"=>"list", "hant_search_1_word"=>" ( recevice_code like '%20100055%' ) ", "controller"=>"case_consultation", "act_r"=>""}
+Rendering case_consultation/list
+Completed in 0.06250 (16 reqs/sec) | Rendering: 0.06250 (100%) | DB: 0.04688 (75%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-02 15:38:44) [GET]
+  Session ID: dd7c8059a8c4c1896410ff5274b3f1eb
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/images/rails.png" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-02 15:38:47) [GET]
+  Session ID: dd7c8059a8c4c1896410ff5274b3f1eb
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-02 17:07:45) [OPTIONS]
+  Session ID: 972a3ee2fb8664c5e2b90db2a396cb39
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-02 17:08:45) [OPTIONS]
+  Session ID: 7345a278eb1eef6da646b7c87ecaf30e
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-03 11:11:03) [OPTIONS]
+  Session ID: 1d8aa55cc6623d0aff6aacef7e0f3ca4
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-03 13:18:29) [OPTIONS]
+  Session ID: 20669dd70f793451eebd424f838a176f
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-03 15:06:37) [OPTIONS]
+  Session ID: aa82ddbd8a4565b437a0e915ef2c5470
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-03 17:02:45) [OPTIONS]
+  Session ID: f1649c9bd41cdc5cfd7885512302ba6d
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-13 14:06:06) [GET]
+  Session ID: 767b81b5c0868e00cc76c6748fbe2cc1
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/images/rails.png" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#login (for 127.0.0.1 at 2011-06-13 14:29:54) [GET]
+  Session ID: ab5918bcbda8d92029734a6ca5f318a6
+  Parameters: {"action"=>"login", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.01562 (50%) | DB: 4.45312 (14250%) | 200 OK [http://localhost/welcome/login]
+
+
+Processing WelcomeController#login (for 127.0.0.1 at 2011-06-17 23:21:00) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"login", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.03125 (100%) | DB: 2.06250 (6600%) | 200 OK [http://localhost/welcome/login]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-06-17 23:21:11) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"code"=>"zl1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Redirected to http://localhost:3000/welcome/main
+Completed in 0.14062 (7 reqs/sec) | DB: 0.14062 (100%) | 302 Found [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-06-17 23:21:12) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.15625 (6 reqs/sec) | Rendering: 0.01562 (10%) | DB: 0.12500 (80%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-06-17 23:21:12) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.07812 (62%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-06-17 23:21:12) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.57812 (1 reqs/sec) | Rendering: 0.10938 (18%) | DB: 0.21875 (37%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-06-17 23:21:13) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.01562 (50%) | DB: 0.01562 (50%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-17 23:21:13) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing RemindController#list (for 127.0.0.1 at 2011-06-17 23:21:13) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"remind"}
+Rendering remind/list
+Completed in 0.07812 (12 reqs/sec) | Rendering: 0.06250 (80%) | DB: 0.01562 (20%) | 200 OK [http://localhost/remind/list]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-06-17 23:21:13) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-06-17 23:21:29) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.20312 (4 reqs/sec) | Rendering: 0.15625 (76%) | DB: 0.03125 (15%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#new (for 127.0.0.1 at 2011-06-17 23:21:35) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"new", "order"=>"recevice_code desc", "page"=>"1", "search_condit"=>nil, "page_lines"=>"20", "controller"=>"case_consultation"}
+Rendering case_consultation/new
+Completed in 0.12500 (8 reqs/sec) | Rendering: 0.06250 (50%) | DB: 0.07812 (62%) | 200 OK [http://localhost/case_consultation/new?order=recevice_code+desc&page=1&page_lines=20&search_condit=]
+
+
+Processing CaseConsultation2Controller#list (for 127.0.0.1 at 2011-06-17 23:32:38) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"case_consultation2"}
+Rendering case_consultation2/list
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.01562 (50%) | DB: 0.92188 (2950%) | 200 OK [http://localhost/case_consultation2/list]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-06-17 23:32:39) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#new (for 127.0.0.1 at 2011-06-17 23:32:40) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"new", "order"=>"recevice_code desc", "page"=>"1", "search_condit"=>nil, "page_lines"=>"20", "controller"=>"case_consultation"}
+Rendering case_consultation/new
+Completed in 0.04688 (21 reqs/sec) | Rendering: 0.03125 (66%) | DB: 0.01562 (33%) | 200 OK [http://localhost/case_consultation/new?order=recevice_code+desc&page=1&page_lines=20&search_condit=]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-06-17 23:39:04) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.37500 (2400%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-06-17 23:39:04) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-06-17 23:39:04) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.37500 (2 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.15625 (41%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-06-17 23:39:04) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.01562 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-17 23:39:04) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing RemindController#list (for 127.0.0.1 at 2011-06-17 23:39:04) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"remind"}
+Rendering remind/list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/remind/list]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-06-17 23:39:05) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-06-17 23:39:10) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.03125 (200%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#new (for 127.0.0.1 at 2011-06-17 23:39:12) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"new", "order"=>"recevice_code desc", "page"=>"1", "search_condit"=>nil, "page_lines"=>"20", "controller"=>"case_consultation"}
+Rendering case_consultation/new
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.01562 (50%) | DB: 0.01562 (50%) | 200 OK [http://localhost/case_consultation/new?order=recevice_code+desc&page=1&page_lines=20&search_condit=]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-06-17 23:44:49) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.43750 (2800%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#new (for 127.0.0.1 at 2011-06-17 23:44:51) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"new", "order"=>"recevice_code desc", "page"=>"1", "search_condit"=>nil, "page_lines"=>"20", "controller"=>"case_consultation"}
+Rendering case_consultation/new
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.04688 (150%) | 200 OK [http://localhost/case_consultation/new?order=recevice_code+desc&page=1&page_lines=20&search_condit=]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-06-17 23:47:30) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.25000 (800%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#new (for 127.0.0.1 at 2011-06-17 23:47:34) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"new", "order"=>"recevice_code desc", "page"=>"1", "search_condit"=>nil, "page_lines"=>"20", "controller"=>"case_consultation"}
+Rendering case_consultation/new
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.01562 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/case_consultation/new?order=recevice_code+desc&page=1&page_lines=20&search_condit=]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-06-17 23:50:32) [POST]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.26562 (1700%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#new (for 127.0.0.1 at 2011-06-17 23:50:35) [GET]
+  Session ID: d0708e32d91ec034f7da4ae06f5fbbec
+  Parameters: {"action"=>"new", "order"=>"recevice_code desc", "page"=>"1", "search_condit"=>nil, "page_lines"=>"20", "controller"=>"case_consultation"}
+Rendering case_consultation/new
+Completed in 0.04688 (21 reqs/sec) | Rendering: 0.01562 (33%) | DB: 0.03125 (66%) | 200 OK [http://localhost/case_consultation/new?order=recevice_code+desc&page=1&page_lines=20&search_condit=]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-18 00:17:03) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/address_test/index" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#login (for 127.0.0.1 at 2011-06-18 00:17:11) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"login", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 3.43750 (3437500%) | 200 OK [http://localhost/welcome/login]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-06-18 00:17:15) [POST]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"code"=>"zl1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Redirected to http://localhost:3000/welcome/main
+Completed in 0.00010 (10000 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-06-18 00:17:15) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-06-18 00:17:15) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-06-18 00:17:15) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.32812 (3 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.17188 (52%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-06-18 00:17:15) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-06-18 00:17:15) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-06-18 00:17:15) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing RemindController#list (for 127.0.0.1 at 2011-06-18 00:17:15) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"list", "controller"=>"remind"}
+Rendering remind/list
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/remind/list]
+
+
+Processing CaseConsultationController#list (for 127.0.0.1 at 2011-06-18 00:17:21) [POST]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"list", "controller"=>"case_consultation"}
+Rendering case_consultation/list
+Completed in 0.03125 (32 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.03125 (100%) | 200 OK [http://localhost/case_consultation/list]
+
+
+Processing CaseConsultationController#new (for 127.0.0.1 at 2011-06-18 00:17:23) [GET]
+  Session ID: 0b643b1adf470769ebefa7e88fa3749d
+  Parameters: {"action"=>"new", "order"=>"recevice_code desc", "page"=>"1", "search_condit"=>nil, "page_lines"=>"20", "controller"=>"case_consultation"}
+Rendering case_consultation/new
+Completed in 0.04688 (21 reqs/sec) | Rendering: 0.03125 (66%) | DB: 0.01562 (33%) | 200 OK [http://localhost/case_consultation/new?order=recevice_code+desc&page=1&page_lines=20&search_condit=]
+
+
+Processing WelcomeController#login (for 127.0.0.1 at 2011-07-01 13:31:21) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"login", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.04688 (21 reqs/sec) | Rendering: 0.03125 (66%) | DB: 1.67188 (3566%) | 200 OK [http://localhost/welcome/login]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-07-01 13:31:24) [POST]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"code"=>"admin", "action"=>"login_do", "controller"=>"welcome", "password"=>"admin"}
+Redirected to http://localhost/welcome/main
+Completed in 0.17188 (5 reqs/sec) | DB: 0.06250 (36%) | 302 Found [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-07-01 13:31:25) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.14062 (7 reqs/sec) | Rendering: 0.01562 (11%) | DB: 0.10938 (77%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-07-01 13:31:25) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.06250 (16 reqs/sec) | Rendering: 0.01562 (25%) | DB: 0.03125 (50%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-07-01 13:31:25) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.10938 (9 reqs/sec) | Rendering: 0.06250 (57%) | DB: 0.01562 (14%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-07-01 13:31:25) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 13:31:25) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-07-01 13:31:25) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing WelcomeController#logout (for 127.0.0.1 at 2011-07-01 13:31:50) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"logout", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.04688 (300%) | 200 OK [http://localhost/welcome/logout]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-07-01 13:31:52) [POST]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"code"=>"zl1", "action"=>"login_do", "controller"=>"welcome", "password"=>"1"}
+Redirected to http://localhost/welcome/main
+Completed in 0.01562 (64 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-07-01 13:31:52) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-07-01 13:31:52) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-07-01 13:31:52) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.26562 (3 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.12500 (47%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-07-01 13:31:53) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 13:31:53) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-07-01 13:31:53) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.01562 (100%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing RemindController#list (for 127.0.0.1 at 2011-07-01 13:31:53) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"list", "controller"=>"remind"}
+Rendering remind/list
+Completed in 0.10938 (9 reqs/sec) | Rendering: 0.07812 (71%) | DB: 0.01562 (14%) | 200 OK [http://localhost/remind/list]
+
+
+Processing ScreenController#list (for 127.0.0.1 at 2011-07-01 13:31:56) [POST]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"list", "controller"=>"screen"}
+Rendering screen/list
+Completed in 0.15625 (6 reqs/sec) | Rendering: 0.04688 (30%) | DB: 0.09375 (60%) | 200 OK [http://localhost/screen/list]
+
+
+Processing ScreenController#edit (for 127.0.0.1 at 2011-07-01 13:32:02) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"action"=>"edit", "id"=>"8", "controller"=>"screen"}
+Rendering screen/edit
+Completed in 0.06250 (16 reqs/sec) | Rendering: 0.04688 (75%) | DB: 0.01562 (25%) | 200 OK [http://localhost/screen/edit/8]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 13:32:02) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/editor/editor/images/bg.gif" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 13:32:03) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/editor/editor/images/blank.gif" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 13:32:07) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/editor/editor/images/blank.gif" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 13:32:08) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/editor/editor/images/blank.gif" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing EditorController#editor (for 127.0.0.1 at 2011-07-01 13:32:36) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"format"=>"asp", "action"=>"editor", "id"=>"upload", "controller"=>"editor"}
+
+
+ActionController::UnknownAction (No action responded to editor):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:696:in `call_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `process_without_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/session_management.rb:114:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:334:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:41:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing EditorController#upload_editor_attach (for 127.0.0.1 at 2011-07-01 13:33:02) [POST]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"name"=>"rails��\275�oracle.rar", "action"=>"upload_editor_attach", "attach"=>#<File:C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/CGI20110701-16896-ud6053-0>, "controller"=>"editor"}
+Completed in 0.04688 (21 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.09375 (200%) | 200 OK [http://localhost/editor/upload_editor_attach]
+
+
+Processing EditorController#editor (for 127.0.0.1 at 2011-07-01 13:33:18) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {"format"=>"asp", "action"=>"editor", "id"=>"upload", "controller"=>"editor"}
+
+
+ActionController::UnknownAction (No action responded to editor):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:696:in `call_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `process_without_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/session_management.rb:114:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:334:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:41:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 13:33:39) [GET]
+  Session ID: ff133238fbae9fadd612ef2ca569c5ae
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/editor/editor/images/blank.gif" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 15:16:45) [OPTIONS]
+  Session ID: f4442c68558ecf3dd866b7684d542bb3
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-01 15:17:47) [OPTIONS]
+  Session ID: 1cbcafcee4139e17123c686c64a57813
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/" with {:method=>:options}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#login (for 127.0.0.1 at 2011-07-04 12:50:32) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"login", "controller"=>"welcome"}
+Rendering welcome/login
+Completed in 0.46875 (2 reqs/sec) | Rendering: 0.12500 (26%) | DB: 0.09375 (20%) | 200 OK [http://localhost/welcome/login]
+
+
+Processing WelcomeController#login_do (for 127.0.0.1 at 2011-07-04 12:50:45) [POST]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"code"=>"admin", "action"=>"login_do", "controller"=>"welcome", "password"=>"admin"}
+Redirected to http://localhost:3000/welcome/main
+Completed in 0.12500 (8 reqs/sec) | DB: 1.56250 (1250%) | 302 Found [http://localhost/welcome/login_do]
+
+
+Processing WelcomeController#main (for 127.0.0.1 at 2011-07-04 12:50:45) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"main", "controller"=>"welcome"}
+Rendering welcome/main
+Completed in 0.14062 (7 reqs/sec) | Rendering: 0.01562 (11%) | DB: 0.12500 (88%) | 200 OK [http://localhost/welcome/main]
+
+
+Processing WelcomeController#top (for 127.0.0.1 at 2011-07-04 12:50:46) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"top", "controller"=>"welcome"}
+Rendering welcome/top
+Completed in 0.04688 (21 reqs/sec) | Rendering: 0.01562 (33%) | DB: 0.03125 (66%) | 200 OK [http://localhost/welcome/top]
+
+
+Processing MenuController#tree (for 127.0.0.1 at 2011-07-04 12:50:46) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"tree", "menu_id"=>"0", "controller"=>"menu"}
+Rendering menu/tree
+Completed in 0.10938 (9 reqs/sec) | Rendering: 0.06250 (57%) | DB: 0.01562 (14%) | 200 OK [http://localhost/menu/tree?menu_id=0]
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-07-04 12:50:46) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.01562 (64 reqs/sec) | Rendering: 0.01562 (100%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-04 12:50:46) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/javascripts/tree_maker.js" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing WelcomeController#right (for 127.0.0.1 at 2011-07-04 12:50:46) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"right", "controller"=>"welcome"}
+Rendering welcome/right
+Completed in 0.00010 (10000 reqs/sec) | Rendering: 0.00000 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/welcome/right]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2011-07-04 12:50:53) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {}
+
+
+ActionController::RoutingError (no route found to match "/users" with {:method=>:get}):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1325:in `recognize_path'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/routing.rb:1315:in `recognize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:40:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-07-04 12:50:56) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"index", "controller"=>"user"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:696:in `call_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `process_without_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/session_management.rb:114:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:334:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:41:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-07-04 12:51:03) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"index", "controller"=>"user"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:696:in `call_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `process_without_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/session_management.rb:114:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:334:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:41:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-07-04 12:52:05) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"index", "controller"=>"user"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:696:in `call_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `process_without_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/session_management.rb:114:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:334:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:41:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-07-04 12:52:12) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"index", "controller"=>"user"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:696:in `call_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `process_without_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/session_management.rb:114:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:334:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:41:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)
+
+
+Processing UserController#index (for 127.0.0.1 at 2011-07-04 12:52:59) [GET]
+  Session ID: 8b276917b504b1c141b8bced092af6a8
+  Parameters: {"action"=>"index", "controller"=>"user"}
+
+
+ActionController::UnknownAction (No action responded to index):
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:696:in `call_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:688:in `perform_action_without_benchmark'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/benchmarking.rb:66:in `perform_action_without_rescue'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/rescue.rb:83:in `perform_action'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `send'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:435:in `process_without_filters'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/filters.rb:684:in `process_without_session_management_support'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/session_management.rb:114:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/base.rb:334:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/rails-1.2.6/lib/dispatcher.rb:41:in `dispatch'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:76:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/rails.rb:74:in `process'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:159:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:158:in `process_client'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:285:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `initialize'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `new'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel.rb:268:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:282:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `each'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/configurator.rb:281:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:128:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/../lib/mongrel/command.rb:212:in `run'
+    C:/Ruby187/lib/ruby/gems/1.8/gems/mongrel-1.1.5-x86-mingw32/bin/mongrel_rails:281
+    C:/Ruby187/bin/mongrel_rails:19:in `load'
+    C:/Ruby187/bin/mongrel_rails:19
+
+
+Rendering C:/Ruby187/lib/ruby/gems/1.8/gems/actionpack-1.13.6/lib/action_controller/templates/rescues/layout.rhtml (404 Page Not Found)

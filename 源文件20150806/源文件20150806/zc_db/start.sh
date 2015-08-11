@@ -1,0 +1,1 @@
+nohup mongrel_rails start -d -e development  -c /usr/local/zc_db  -p 3000 -P /usr/local/zc_db/log/mongrel_pid/mongrel_3000.pid &

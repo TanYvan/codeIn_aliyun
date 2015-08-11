@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="handbook" extends="common" namespace="/handbook">
+		<action name="list" class="HandbookAction" method="list">
+			<result name="success">/WEB-INF/pages/handbook/list.jsp</result>
+		</action>
+		<action name="toInsert" class="HandbookAction" method="toInsert">
+			<result name="success">/WEB-INF/pages/handbook/new.jsp</result>
+		</action>
+		<action name="insert" class="HandbookAction" method="insert">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">handbook</param> 
+				<param name="actionName">list.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdate" class="HandbookAction" method="toUpdate">
+			<result name="success">/WEB-INF/pages/handbook/edit.jsp</result>
+		</action>
+		<action name="update" class="HandbookAction" method="update">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">handbook</param> 
+				<param name="actionName">list.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="delete" class="HandbookAction" method="delete">
+		    <result name="success">/WEB-INF/pages/handbook/list.jsp</result>
+		</action>
+	</package>
+</struts>
+

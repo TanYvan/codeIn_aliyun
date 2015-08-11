@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="arbitmanAttIn" extends="common" namespace="/arbitmanAttIn">
+		<action name="findArbitmanAttInList" class="ArbitmanAttInAction" method="findArbitmanAttInList">
+			<result name="success">/WEB-INF/pages/arbitmanAttIn/list.jsp</result>
+		</action>
+		<action name="toInsertArbitmanAttIn" class="ArbitmanAttInAction" method="toInsertArbitmanAttIn" >
+			<result name="success">/WEB-INF/pages/arbitmanAttIn/new.jsp</result>
+		</action>
+		<action name="insertArbitmanAttIn" class="ArbitmanAttInAction" method="insertArbitmanAttIn">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/arbitmanAttIn</param> 
+				<param name="actionName">findArbitmanAttInList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="downFile" class="ArbitmanAttInAction" method="downFile">
+		    <result name="success" type="stream">  
+		        <param name="contentType">application/octet-stream</param>  
+		        <param name="contentDisposition">filename="${uploadFileName}"</param>  
+		        <param name="inputName">downLoadFile</param>  
+		    </result> 
+		</action>
+	</package>
+</struts>
+

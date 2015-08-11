@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="remindIn" extends="common" namespace="/remindIn">
+		<action name="findRemindBeforeInList" class="RemindInAction" method="findRemindBeforeInList">
+			<result name="success">/WEB-INF/pages/remindIn/list_before.jsp</result>
+		</action>
+		<action name="confirm" class="RemindInAction" method="confirm">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">remindIn</param> 
+				<param name="actionName">findRemindBeforeInList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="findRemindAfterInList" class="RemindInAction" method="findRemindAfterInList">
+			<result name="success">/WEB-INF/pages/remindIn/list_after.jsp</result>
+		</action>
+	</package>
+</struts>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+<sql></sql>
+<status>1</status><!--1成功，0失败-->
+<error></error><!--错误信息-->
+<dataset>
+  <size>2</size>
+  <rows>
+    <row>
+      <value>
+        <name>age</name>
+        <val>36</val>
+      </value>
+      <value>
+        <name>addr</name>
+        <val>36</val>
+      </value>
+    </row>
+    <row>
+    <value>
+      <name>age</name>
+        <val>37</val>
+      </value>
+      <value>
+        <name>addr</name>
+        <val>31</val>
+      </value>
+    </row>
+  </rows>
+</dataset>
+</xml>

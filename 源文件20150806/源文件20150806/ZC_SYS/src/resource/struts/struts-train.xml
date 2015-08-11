@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="train" extends="common" namespace="/train">
+		<action name="list" class="TrainAction" method="list">
+			<result name="success">/WEB-INF/pages/train/list.jsp</result>
+		</action>
+		<action name="toInsert" class="TrainAction" method="toInsert">
+			<result name="success">/WEB-INF/pages/train/new.jsp</result>
+		</action>
+		<action name="insert" class="TrainAction" method="insert">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">train</param> 
+				<param name="actionName">list.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdate" class="TrainAction" method="toUpdate">
+			<result name="success">/WEB-INF/pages/train/edit.jsp</result>
+		</action>
+		<action name="update" class="TrainAction" method="update">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">train</param> 
+				<param name="actionName">list.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="delete" class="TrainAction" method="delete">
+		    <result name="success">/WEB-INF/pages/train/list.jsp</result>
+		</action>
+		<action name="regList" class="TrainAction" method="regList">
+			<result name="success">/WEB-INF/pages/train/reg_list.jsp</result>
+		</action>
+		<action name="toRegUpdate" class="TrainAction" method="toRegUpdate">
+			<result name="success">/WEB-INF/pages/train/reg_edit.jsp</result>
+		</action>
+		<action name="regUpdate" class="TrainAction" method="regUpdate">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">train</param> 
+				<param name="actionName">regList.do</param>
+				<param name="error">${error}</param>
+				<param name="id">${trainReg.train_id}</param>
+			</result>
+		</action>
+		<action name="regScore" class="TrainAction" method="regScore">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">train</param> 
+				<param name="actionName">regList.do</param>
+				<param name="error">${error}</param>
+				<param name="id">${id}</param>
+			</result>
+		</action>
+		<action name="toRegInsert" class="TrainAction" method="toRegInsert">
+			<result name="success">/WEB-INF/pages/train/reg_new.jsp</result>
+		</action>
+		<action name="regInsert" class="TrainAction" method="regInsert">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">train</param> 
+				<param name="actionName">regList.do</param>
+				<param name="error">${error}</param>
+				<param name="id">${trainReg.train_id}</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

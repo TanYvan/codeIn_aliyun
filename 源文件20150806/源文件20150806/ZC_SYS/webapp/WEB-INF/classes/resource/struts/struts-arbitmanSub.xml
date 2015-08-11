@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="arbitmanSub" extends="common" namespace="/arbitmanSub">
+		<action name="toUpdateArbitmanSub" class="ArbitmanSubAction" method="toUpdateArbitmanSub">
+			<result name="success">/WEB-INF/pages/arbitmanSub/edit.jsp</result>
+			<result name="error">/WEB-INF/pages/arbitmanSub/fail.jsp</result>
+		</action>
+		<action name="updateArbitmanSub" class="ArbitmanSubAction" method="updateArbitmanSub">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/arbitmanSub</param> 
+				<param name="actionName">toUpdateArbitmanSub.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="updateArbitmanFinanceSub" class="ArbitmanSubAction" method="updateArbitmanFinanceSub">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/arbitmanSub</param> 
+				<param name="actionName">toUpdateArbitmanSub.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

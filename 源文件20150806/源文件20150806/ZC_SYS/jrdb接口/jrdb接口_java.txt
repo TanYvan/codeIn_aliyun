@@ -1,0 +1,59 @@
+java接口类
+
+类名
+JrDbHelp
+
+方法
+1、安全验证
+private String check（String dt）
+功能：dt+key后进行MD5编码
+参数说明：时间形如 2104-02-18 11:22:33
+返回：加密后的字符串
+
+2、查询
+public HashMap find_all（HashMap arg）
+功能：数据查询，返回记录集
+参数说明： arg 为 [select => String，
+from => String,joins =>String, conditions => Array, group=>String, having=>String, offset=>String, limit =>String, order => String]
+
+返回HashMap data=>list<HashMap>,size=>int 
+
+2、查询
+public list<HashMap> find_first（HashMap arg）
+功能：数据查询，返回一条记录
+参数说明： arg 为 [select => String，
+from => String,joins =>String, conditions => Array, group=>String, having=>String, offset=>String, limit =>String, order => String]
+返回HashMap data=>list<HashMap>,size=>int 
+
+3、批量修改
+public update_all（HashMap arg）
+功能：批量修改
+参数说明： arg 为 [from => String, set => Array， conditions => Array]
+
+4、修改
+public update（HashMap arg）
+功能：根据hash修改某一个ID所对应的记录
+参数说明： arg 为 [from => String, set => HashMap， id => Array]
+
+
+5、新建
+public create（HashMap arg）
+功能：新创建一条记录
+参数说明 arg 为 [from => String, values =>Array]
+
+
+6、查询
+public HashMap paginate_jr（HashMap arg）
+功能：分页查询
+参数说明： arg 为 [select => String，
+from => String, joins =>String, conditions => Array, group=>String, having=>String, order => String, per_page=>int, page=>int，params =>HashMap]
+
+返回 HashMap   [size=>int,count=>int,per_page=>int,pages=>int,page=>int,params =>HashMap, data=>list<HashMap>]
+params是所有的http请求参数
+
+
+7、分页控件
+public HashMap page_bar（HashMap arg）
+功能：分页控件显示的html，放在一个div中，该div有一个css，对这个纯净的html进行美化。
+参数：pagina所返回的HashMap
+返回：html代码

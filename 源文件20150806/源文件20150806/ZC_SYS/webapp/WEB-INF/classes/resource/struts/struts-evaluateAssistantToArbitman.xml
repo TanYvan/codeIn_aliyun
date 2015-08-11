@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="evaluateAssistantToArbitman" extends="common" namespace="/evaluateAssistantToArbitman">
+		<action name="findEvaluateAssistantToArbitmanList" class="EvaluateAssistantToArbitmanAction" method="findEvaluateAssistantToArbitmanList">
+			<result name="success">/WEB-INF/pages/evaluateAssistantToArbitman/list.jsp</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/assistantCaseIn</param> 
+				<param name="actionName">findAssistantCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/evaluateAssistantToArbitman/findEvaluateAssistantToArbitmanList.do</param>
+			</result>
+		</action>
+		<action name="toInsertEvaluateAssistantToArbitman" class="EvaluateAssistantToArbitmanAction" method="toInsertEvaluateAssistantToArbitman">
+			<result name="success">/WEB-INF/pages/evaluateAssistantToArbitman/new.jsp</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/assistantCaseIn</param> 
+				<param name="actionName">findAssistantCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/evaluateAssistantToArbitman/findEvaluateAssistantToArbitmanList.do</param>
+			</result>
+		</action>
+		<action name="insertEvaluateAssistantToArbitman" class="EvaluateAssistantToArbitmanAction" method="insertEvaluateAssistantToArbitman">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/evaluateAssistantToArbitman</param> 
+				<param name="actionName">findEvaluateAssistantToArbitmanList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/assistantCaseIn</param> 
+				<param name="actionName">findAssistantCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/evaluateAssistantToArbitman/findEvaluateAssistantToArbitmanList.do</param>
+			</result>
+		</action>
+		<action name="toUpdateEvaluateAssistantToArbitman" class="EvaluateAssistantToArbitmanAction" method="toUpdateEvaluateAssistantToArbitman">
+			<result name="success">/WEB-INF/pages/evaluateAssistantToArbitman/edit.jsp</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/assistantCaseIn</param> 
+				<param name="actionName">findAssistantCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/evaluateAssistantToArbitman/findEvaluateAssistantToArbitmanList.do</param>
+			</result>
+		</action>
+		<action name="updateEvaluateAssistantToArbitman" class="EvaluateAssistantToArbitmanAction" method="updateEvaluateAssistantToArbitman">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/evaluateAssistantToArbitman</param> 
+				<param name="actionName">findEvaluateAssistantToArbitmanList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/assistantCaseIn</param> 
+				<param name="actionName">findAssistantCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/evaluateAssistantToArbitman/findEvaluateAssistantToArbitmanList.do</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

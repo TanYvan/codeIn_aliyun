@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="true">
+	<bean id="CostAction" scope="prototype"
+		class="cn.com.zc.web.CostAction">
+	</bean>
+	<bean id="ArbitmanPublicAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanPublicAction">
+	</bean>
+	<bean id="ArbitmanPublicUpAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanPublicUpAction">
+	</bean>
+	<bean id="SysUpAction" scope="prototype"
+		class="cn.com.zc.web.SysUpAction">
+	</bean>
+	<bean id="BaseAction" scope="prototype"
+		class="cn.com.zc.web.BaseAction">
+	</bean>
+	<bean id="WelcomeAction" scope="prototype"
+		class="cn.com.zc.web.WelcomeAction">
+	</bean>	
+	<bean id="AttachmentConfigAction" scope="prototype"
+		class="cn.com.zc.web.AttachmentConfigAction">
+	</bean>
+	<bean id="DictionaryAction" scope="prototype"
+		class="cn.com.zc.web.DictionaryAction">
+	</bean>
+	<bean id="UserAction" scope="prototype"
+		class="cn.com.zc.web.UserAction">
+	</bean>
+	<bean id="UrAction" scope="prototype"
+		class="cn.com.zc.web.UrAction">
+	</bean>
+	<bean id="UdAction" scope="prototype"
+		class="cn.com.zc.web.UserDutiesAction">
+	</bean>
+	<bean id="DutyAction" scope="prototype"
+		class="cn.com.zc.web.DutiesAction">
+	</bean>
+	<bean id="PageAction" scope="prototype"
+		class="cn.com.zc.web.PageAction">
+	</bean>
+	<bean id="RoleAction" scope="prototype"
+		class="cn.com.zc.web.RoleAction">
+	</bean>
+	<bean id="MenuAction" scope="prototype"
+		class="cn.com.zc.web.MenuAction">
+	</bean>
+	<bean id="RegionAction" scope="prototype"
+		class="cn.com.zc.web.RegionAction">
+	</bean>
+	<bean id="QuickMenuAction" scope="prototype"
+		class="cn.com.zc.web.QuickMenuAction">
+	</bean>
+	<bean id="SysArgAction" scope="prototype"
+		class="cn.com.zc.web.SysArgAction">
+	</bean>
+	<bean id="FileProvideAction" scope="prototype"
+		class="cn.com.zc.web.FileProvideAction">
+	</bean>
+	<bean id="FileDownAction" scope="prototype"
+		class="cn.com.zc.web.FileDownAction">
+	</bean>
+	
+	<bean id="TrainAction" scope="prototype"
+		class="cn.com.zc.web.TrainAction">
+	</bean>
+	<bean id="HandbookAction" scope="prototype"
+		class="cn.com.zc.web.HandbookAction">
+	</bean>
+	<bean id="NotifyAction" scope="prototype"
+		class="cn.com.zc.web.NotifyAction">
+	</bean>
+	<bean id="ProposeAction" scope="prototype"
+		class="cn.com.zc.web.ProposeAction">
+	</bean>
+	<bean id="DownlogAction" scope="prototype"
+		class="cn.com.zc.web.DownlogAction">
+	</bean>
+	<bean id="RemindInAction" scope="prototype"
+		class="cn.com.zc.web.RemindInAction">
+	</bean>
+	<bean id="WuserAction" scope="prototype"
+		class="cn.com.zc.web.WuserAction">
+	</bean>
+	<bean id="SearchArbitmanInForAssistantAction" scope="prototype"
+		class="cn.com.zc.web.SearchArbitmanInForAssistantAction">
+	</bean>
+	<bean id="SearchArbitmanInForUserAction" scope="prototype"
+		class="cn.com.zc.web.SearchArbitmanInForUserAction">
+	</bean>
+	
+	<bean id="SelectArbitmanInForUserAction" scope="prototype"
+		class="cn.com.zc.web.SelectArbitmanInForUserAction">
+	</bean>
+	
+	<bean id="ShowArbitmanInAction" scope="prototype"
+		class="cn.com.zc.web.ShowArbitmanInAction">
+	</bean>
+	<bean id="TqMessageAction" scope="prototype"
+		class="cn.com.zc.web.TqMessageAction">
+	</bean>
+	<bean id="MyDownlogAction" scope="prototype"
+		class="cn.com.zc.web.MyDownlogAction">
+	</bean>
+	<bean id="LawLinkAction" scope="prototype"
+		class="cn.com.zc.web.LawLinkAction">
+	</bean>
+	
+	
+	
+	<bean id="ArbitmanAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanAction">
+	</bean>
+	<bean id="EducateAction" scope="prototype"
+		class="cn.com.zc.web.EducateAction">
+	</bean>
+	<bean id="SpecialAction" scope="prototype"
+		class="cn.com.zc.web.SpecialAction">
+	</bean>
+	<bean id="IndustryAction" scope="prototype"
+		class="cn.com.zc.web.IndustryAction">
+	</bean>
+	<bean id="ResumeAction" scope="prototype"
+		class="cn.com.zc.web.ResumeAction">
+	</bean>
+	<bean id="LanguageAction" scope="prototype"
+		class="cn.com.zc.web.LanguageAction">
+	</bean>
+	<bean id="ArbitmanAttAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanAttAction">
+	</bean>
+	
+	<bean id="ArbitmanInAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanInAction">
+	</bean>
+	<bean id="EducateInAction" scope="prototype"
+		class="cn.com.zc.web.EducateInAction">
+	</bean>
+	<bean id="IndustryInAction" scope="prototype"
+		class="cn.com.zc.web.IndustryInAction">
+	</bean>
+	<bean id="ResumeInAction" scope="prototype"
+		class="cn.com.zc.web.ResumeInAction">
+	</bean>
+	<bean id="LanguageInAction" scope="prototype"
+		class="cn.com.zc.web.LanguageInAction">
+	</bean>
+	<bean id="ArbitmanAttInAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanAttInAction">
+	</bean>
+	
+	<bean id="ArbitmanSubAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanSubAction">
+	</bean>
+	<bean id="EducateSubAction" scope="prototype"
+		class="cn.com.zc.web.EducateSubAction">
+	</bean>
+	<bean id="IndustrySubAction" scope="prototype"
+		class="cn.com.zc.web.IndustrySubAction">
+	</bean>
+	<bean id="ResumeSubAction" scope="prototype"
+		class="cn.com.zc.web.ResumeSubAction">
+	</bean>
+	<bean id="LanguageSubAction" scope="prototype"
+		class="cn.com.zc.web.LanguageSubAction">
+	</bean>
+	
+	<bean id="CaseApplyAction" scope="prototype"
+		class="cn.com.zc.web.CaseApplyAction">
+	</bean>
+	<bean id="PartyAction" scope="prototype"
+		class="cn.com.zc.web.PartyAction">
+	</bean>
+	<bean id="Party2Action" scope="prototype"
+		class="cn.com.zc.web.Party2Action">
+	</bean>
+	<bean id="AgentAction" scope="prototype"
+		class="cn.com.zc.web.AgentAction">
+	</bean>
+	<bean id="PartyRequestAction" scope="prototype"
+		class="cn.com.zc.web.PartyRequestAction">
+	</bean>
+	<bean id="ContractsignAction" scope="prototype"
+		class="cn.com.zc.web.ContractsignAction">
+	</bean>
+	<bean id="CaseAttAction" scope="prototype"
+		class="cn.com.zc.web.CaseAttAction">
+	</bean>
+	
+	<bean id="RemindAction" scope="prototype"
+		class="cn.com.zc.web.RemindAction">
+	</bean>
+	<bean id="MyNotifyAction" scope="prototype"
+		class="cn.com.zc.web.MyNotifyAction">
+	</bean>
+	<bean id="MyProposeAction" scope="prototype"
+		class="cn.com.zc.web.MyProposeAction">
+	</bean>
+	<bean id="MyHandbookAction" scope="prototype"
+		class="cn.com.zc.web.MyHandbookAction">
+	</bean>
+	<bean id="MyTrainAction" scope="prototype"
+		class="cn.com.zc.web.MyTrainAction">
+	</bean>
+	
+	<bean id="ArbitmanCaseInAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanCaseInAction">
+	</bean>
+	<bean id="ArbitmanCaseAttInAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanCaseAttInAction">
+	</bean>
+	<bean id="ArbitmanEvaluateInfoAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanEvaluateInfoAction">
+	</bean>
+	<bean id="EvaluateArbitmanToArbitmanAction" scope="prototype"
+		class="cn.com.zc.web.EvaluateArbitmanToArbitmanAction">
+	</bean>
+	<bean id="EvaluateArbitmanToAssistantAction" scope="prototype"
+		class="cn.com.zc.web.EvaluateArbitmanToAssistantAction">
+	</bean>
+	<bean id="ArbitmanRewardBeforeInAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanRewardBeforeInAction">
+	</bean>
+	<bean id="ArbitmanRewardAfterInAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanRewardAfterInAction">
+	</bean>
+	<bean id="ArbitmanCaseInfoInAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanCaseInfoInAction">
+	</bean>
+	<bean id="CaseDocInAction" scope="prototype"
+		class="cn.com.zc.web.CaseDocInAction">
+	</bean>
+	<bean id="CaseBookInAction" scope="prototype"
+		class="cn.com.zc.web.CaseBookInAction">
+	</bean>
+	<bean id="ArbitmanCaseTermAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanCaseTermAction">
+	</bean>
+	<bean id="ArbitmanCaseTimeAction" scope="prototype"
+		class="cn.com.zc.web.ArbitmanCaseTimeAction">
+	</bean>
+	
+	<bean id="PartyCaseInAction" scope="prototype"
+		class="cn.com.zc.web.PartyCaseInAction">
+	</bean>
+	<bean id="EvaluatePartyToArbitmanAction" scope="prototype"
+		class="cn.com.zc.web.EvaluatePartyToArbitmanAction">
+	</bean>
+	<bean id="EvaluatePartyToAssistantAction" scope="prototype"
+		class="cn.com.zc.web.EvaluatePartyToAssistantAction">
+	</bean>
+	<bean id="PartyCaseMessageAction" scope="prototype"
+		class="cn.com.zc.web.PartyCaseMessageAction">
+	</bean>
+	<bean id="PartyCaseAttInAction" scope="prototype"
+		class="cn.com.zc.web.PartyCaseAttInAction">
+	</bean>
+	<bean id="PartyAppointArbitman" scope="prototype"
+		class="cn.com.zc.web.PartyAppointArbitmanAction">
+	</bean>
+	<bean id="SelectArbitmanInForUser" scope="prototype"
+		class="cn.com.zc.web.SelectArbitmanInForUserAction">
+	</bean>
+	
+	
+	
+	<bean id="AssistantCaseInAction" scope="prototype"
+		class="cn.com.zc.web.AssistantCaseInAction">
+	</bean>
+	<bean id="AssistantEvaluateInfoAction" scope="prototype"
+		class="cn.com.zc.web.AssistantEvaluateInfoAction">
+	</bean>
+	<bean id="EvaluateAssistantToArbitmanAction" scope="prototype"
+		class="cn.com.zc.web.EvaluateAssistantToArbitmanAction">
+	</bean>
+	<bean id="AssistantCaseTermAction" scope="prototype"
+		class="cn.com.zc.web.AssistantCaseTermAction">
+	</bean>
+	
+</beans>

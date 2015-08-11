@@ -1,0 +1,36 @@
+java接口类
+
+类名
+JrDbHelp
+
+方法
+1、安全验证
+private String check（String dt）
+功能：dt+key后进行MD5编码
+参数说明：时间形如 2104-02-18 11:22:33
+返回：加密后的字符串
+
+2、查询
+public HashMap find_all_first
+功能：数据查询，返回记录集
+
+
+2、查询
+public find_first
+功能：数据查询，返回一条记录
+
+
+3、批量修改
+public update_all
+
+4、修改
+public update
+功能：根据hash修改某一个ID所对应的记录
+
+5、新建
+public create
+功能：新创建一条记录,返回新建记录的id
+
+6、查询
+public paginate_jr
+功能：分页查询

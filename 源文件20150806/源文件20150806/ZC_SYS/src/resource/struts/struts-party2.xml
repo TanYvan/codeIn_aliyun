@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="party2" extends="common" namespace="/party2">
+		<action name="toInsertParty" class="Party2Action" method="toInsertParty">
+			<result name="success">/WEB-INF/pages/party2/new.jsp</result>
+		</action>
+		<action name="insertParty" class="Party2Action" method="insertParty">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">bsqrxx</param>
+			</result>
+		</action>
+		<action name="toUpdateParty" class="Party2Action" method="toUpdateParty">
+			<result name="success">/WEB-INF/pages/party2/edit.jsp</result>
+		</action>
+		<action name="updateParty" class="Party2Action" method="updateParty">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">bsqrxx</param>
+			</result>
+		</action>
+		<action name="deleteParty" class="Party2Action" method="deleteParty">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">bsqrxx</param>
+			</result>
+		</action>
+		<action name="select" class="Party2Action" method="select">
+			<result name="success">/WEB-INF/pages/party2/select.jsp</result>
+		</action>
+		<action name="selectInsertParty" class="Party2Action" method="selectInsertParty">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">bsqrxx</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

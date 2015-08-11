@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="educateSub" extends="common" namespace="/educateSub">
+		<action name="findEducateSubList" class="EducateSubAction" method="findEducateSubList">
+			<result name="success">/WEB-INF/pages/educateSub/list.jsp</result>
+		</action>
+		<action name="toInsertEducateSub" class="EducateSubAction" method="toInsertEducateSub">
+			<result name="success">/WEB-INF/pages/educateSub/new.jsp</result>
+		</action>
+		<action name="insertEducateSub" class="EducateSubAction" method="insertEducateSub">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/educateSub</param> 
+				<param name="actionName">findEducateSubList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdateEducateSub" class="EducateSubAction" method="toUpdateEducateSub">
+			<result name="success">/WEB-INF/pages/educateSub/edit.jsp</result>
+		</action>
+		<action name="updateEducateSub" class="EducateSubAction" method="updateEducateSub">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/educateSub</param> 
+				<param name="actionName">findEducateSubList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="deleteEducateSub" class="EducateSubAction" method="deleteEducateSub">
+		    <result name="success" type="redirectAction">
+			    <param name="namespace">/educateSub</param> 
+				<param name="actionName">findEducateSubList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

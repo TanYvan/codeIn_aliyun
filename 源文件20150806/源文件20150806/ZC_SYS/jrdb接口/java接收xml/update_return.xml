@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+<sql></sql>
+<status>1</status><!--1成功，0失败-->
+<error></error><!--错误信息-->
+</xml>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="selectArbitmanInForUser" extends="common" namespace="/selectArbitmanInForUser">
+		<action name="showArbitman" class="SelectArbitmanInForUserAction" method="showArbitman">
+			<result name="success">/WEB-INF/pages/selectArbitmanInForUser/show_arbitman.jsp</result>
+		</action>
+		<action name="select" class="SelectArbitmanInForUserAction" method="select">
+			<result name="success">/WEB-INF/pages/selectArbitmanInForUser/select.jsp</result>
+		</action>
+	</package>
+</struts>
+

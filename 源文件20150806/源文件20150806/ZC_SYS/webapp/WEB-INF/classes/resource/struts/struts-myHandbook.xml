@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="myHandbook" extends="common" namespace="/myHandbook">
+		<action name="list" class="MyHandbookAction" method="list">
+			<result name="success">/WEB-INF/pages/myHandbook/list.jsp</result>
+		</action>
+		<action name="show" class="MyHandbookAction" method="show">
+			<result name="success">/WEB-INF/pages/myHandbook/show.jsp</result>
+		</action>
+	</package>
+</struts>
+

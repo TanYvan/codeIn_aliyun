@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="true">
+    <bean id="costService" class="cn.com.zc.service.spring.CostServiceSpringImpl"></bean>
+    
+	<bean id="arbitmanPublicService" class="cn.com.zc.service.spring.ArbitmanPublicServiceSpringImpl"></bean>
+
+	<bean id="arbitmanPublicNowService" class="cn.com.zc.service.spring.ArbitmanPublicNowServiceSpringImpl"></bean>
+
+	<bean id="dictionaryService" class="cn.com.zc.service.spring.DictionaryServiceSpringImpl"></bean>
+	
+	<bean id="docFormatService" class="cn.com.zc.service.spring.DocFormatServiceSpringImpl"></bean>
+	
+	<bean id="attachmentConfigService" class="cn.com.zc.service.spring.AttachmentConfigServiceSpringImpl"></bean>
+	
+	<bean id="userService" class="cn.com.zc.service.spring.UserServiceSpringImpl"></bean>
+	
+	<bean id="urService" class="cn.com.zc.service.spring.UrServiceSpringImpl"></bean>
+	
+	<bean id="udSerivce" class="cn.com.zc.service.spring.UserDutiesServiceSpringImpl"></bean>
+	
+	<bean id="dutiesService" class="cn.com.zc.service.spring.DutiesServiceSpringImpl"></bean>
+
+	<bean id="pageService" class="cn.com.zc.service.spring.PageServiceSpringImpl"></bean>
+
+	<bean id="roleService" class="cn.com.zc.service.spring.RoleServiceSpringImpl"></bean>
+
+	<bean id="menuService" class="cn.com.zc.service.spring.MenuServiceSpringImpl"></bean>
+	
+	<bean id="sysArgService" class="cn.com.zc.service.spring.SysArgServiceSpringImpl"></bean>
+    	
+	<bean id="quickMenuService" class="cn.com.zc.service.spring.QuickMenuServiceSpringImpl"></bean>
+	
+	<bean id="regionService" class="cn.com.zc.service.spring.RegionServiceSpringImpl"></bean>
+	
+	<bean id="notifyService" class="cn.com.zc.service.spring.NotifyServiceSpringImpl"></bean>
+	
+	<bean id="handbookService" class="cn.com.zc.service.spring.HandbookServiceSpringImpl"></bean>
+	
+	<bean id="trainService" class="cn.com.zc.service.spring.TrainServiceSpringImpl"></bean>
+	
+	<bean id="trainRegService" class="cn.com.zc.service.spring.TrainRegServiceSpringImpl"></bean>
+	
+	<bean id="proposeService" class="cn.com.zc.service.spring.ProposeServiceSpringImpl"></bean>
+	
+	<bean id="downlogService" class="cn.com.zc.service.spring.DownlogServiceSpringImpl"></bean>
+	
+	<bean id="wuserService" class="cn.com.zc.service.spring.WuserServiceSpringImpl"></bean>
+	
+	<bean id="arbitmanService" class="cn.com.zc.service.spring.ArbitmanServiceSpringImpl"></bean>
+
+	<bean id="educateService" class="cn.com.zc.service.spring.EducateServiceSpringImpl"></bean>
+
+	<bean id="specialService" class="cn.com.zc.service.spring.SpecialServiceSpringImpl"></bean>
+
+	<bean id="industryService" class="cn.com.zc.service.spring.IndustryServiceSpringImpl"></bean>
+
+	<bean id="resumeService" class="cn.com.zc.service.spring.ResumeServiceSpringImpl"></bean>
+
+	<bean id="languageService" class="cn.com.zc.service.spring.LanguageServiceSpringImpl"></bean>
+	
+	<bean id="arbitmanAttService" class="cn.com.zc.service.spring.ArbitmanAttServiceSpringImpl"></bean>
+	
+	<bean id="attachmentService" class="cn.com.zc.service.spring.AttachmentServiceSpringImpl"></bean>
+	
+	<bean id="caseApplyBaseService" class="cn.com.zc.service.spring.CaseApplyBaseServiceSpringImpl"></bean>
+	
+	<bean id="caseAttService" class="cn.com.zc.service.spring.CaseAttServiceSpringImpl"></bean>
+	
+	<bean id="partyService" class="cn.com.zc.service.spring.PartyServiceSpringImpl"></bean>
+	
+	<bean id="agentService" class="cn.com.zc.service.spring.AgentServiceSpringImpl"></bean>
+	
+	<bean id="partyRequestService" class="cn.com.zc.service.spring.PartyRequestServiceSpringImpl"></bean>
+	
+	<bean id="contractsignService" class="cn.com.zc.service.spring.ContractsignServiceSpringImpl"></bean>
+	
+	<bean id="evaluateService" class="cn.com.zc.service.spring.EvaluateServiceSpringImpl"></bean>
+
+</beans>

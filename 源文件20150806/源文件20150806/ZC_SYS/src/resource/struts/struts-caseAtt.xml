@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="caseAtt" extends="common" namespace="/caseAtt">
+		<action name="toInsertCaseAtt" class="CaseAttAction" method="toInsertCaseAtt">
+			<result name="success">/WEB-INF/pages/caseAtt/new.jsp</result>
+		</action>
+		<action name="insertCaseAtt" class="CaseAttAction" method="insertCaseAtt">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">ajfj</param>
+			</result>
+		</action>
+		<action name="toUpdateCaseAtt" class="CaseAttAction" method="toUpdateCaseAtt">
+			<result name="success">/WEB-INF/pages/caseAtt/edit.jsp</result>
+		</action>
+		<action name="updateCaseAtt" class="CaseAttAction" method="updateCaseAtt">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">ajfj</param>
+			</result>
+		</action>
+		<action name="deleteCaseAtt" class="CaseAttAction" method="deleteCaseAtt">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">ajfj</param>
+			</result>
+		</action>
+		<action name="downFile" class="CaseAttAction" method="downFile">
+		    <result name="success" type="stream">  
+		        <param name="contentType">application/octet-stream</param>  
+		        <param name="contentDisposition">filename="${uploadFileName}"</param>  
+		        <param name="inputName">downLoadFile</param>  
+		    </result> 
+		</action>
+	</package>
+</struts>
+

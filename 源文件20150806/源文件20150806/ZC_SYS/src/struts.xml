@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<!-- 是否为struts开发模式 -->
+	<constant name="struts.devMode" value="false" />
+	<!-- 默认的UI template主题 -->
+	<constant name="struts.ui.theme" value="custom" />
+	<!-- 默认的国际化地区信息 -->
+	<constant name="struts.locale" value="zh_CN" />
+	<!-- 国际化信息内码 -->
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<!-- action的后缀 -->
+	<constant name="struts.action.extension" value="do" />
+	<!-- 加载附加的国际化属性文件（不包含.properties后缀）。可以增加多个properties文件的名称，使用逗号或者空格分割 -->
+	<constant name="struts.custom.i18n.resources" value="messageResource" />
+
+	<!-- ObjectFactory接口 -->
+	<constant name="struts.objectFactory" value="spring" />
+	<!--
+		指定当使用SpringObjectFactory时的自动装配逻辑.合法值包括: name, type, auto, 和
+		constructor (缺省为 name )
+	-->
+	<constant name="struts.objectFactory.spring.autoWire" value="name" />
+
+	<!-- 允许动态方法调用  -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="false" />
+
+	<!-- 是否国际化信息自动加载 -->
+	<constant name="struts.i18n.reload" value="true" />
+	<!-- 是否自动加载xml配置(true,false) -->
+	<constant name="struts.configuration.xml.reload" value="false" />
+
+	<!-- 是否spring应该使用自身的cache -->
+	<constant name="struts.objectFactory.spring.useClassCache"
+		value="true" />
+	<constant name="struts.freemarker.templatesCache" value="true" />
+	<!-- 是否struts过滤器中提供的静态内容应该被浏览器缓存在头部属性中 -->
+	<constant name="struts.serve.static.browserCache" value="true" />
+	<!-- 是否struts过滤器应该提供静态内容 -->
+	<constant name="struts.serve.static" value="true" />
+	<!-- 是否不缓存XSLT模版 -->
+	<constant name="struts.xslt.nocache" value="false" />
+
+	<constant name="struts.ui.theme" value="simple" />
+	
+	<include file="resource/struts/struts-cost.xml" />
+	<include file="resource/struts/struts-arbitmanPublic.xml" />
+	<include file="resource/struts/struts-arbitmanPublicUp.xml" />
+	<include file="resource/struts/struts-sysUp.xml" />
+	<include file="resource/struts/struts-common.xml" />
+	<include file="resource/struts/struts-dictionary.xml" />
+	<include file="resource/struts/struts-attachmentConfig.xml" />
+    <include file="resource/struts/struts-welcome.xml" />
+	<include file="resource/struts/struts-menu.xml" />
+	<include file="resource/struts/struts-page.xml" />
+	<include file="resource/struts/struts-role.xml" />
+	<include file="resource/struts/struts-user.xml" />
+	<include file="resource/struts/struts-ur.xml" />
+	<include file="resource/struts/struts-ud.xml" />
+	<include file="resource/struts/struts-sysArg.xml" />
+	<include file="resource/struts/struts-region.xml" />
+	<include file="resource/struts/struts-duty.xml" />
+	<include file="resource/struts/struts-quickmenu.xml" />
+	<include file="resource/struts/struts-ud.xml" />
+	<include file="resource/struts/struts-fileDown.xml" />
+	<include file="resource/struts/struts-fileProvide.xml" />
+	<include file="resource/struts/struts-caseDocIn.xml" />
+	<include file="resource/struts/struts-caseBookIn.xml" />
+	
+	<include file="resource/struts/struts-train.xml" />
+	<include file="resource/struts/struts-handbook.xml" />
+	<include file="resource/struts/struts-notify.xml" />
+	<include file="resource/struts/struts-propose.xml" />
+	<include file="resource/struts/struts-downlog.xml" />
+	<include file="resource/struts/struts-remindIn.xml" />
+	<include file="resource/struts/struts-wuser.xml" />
+	<include file="resource/struts/struts-searchArbitmanInForAssistant.xml" />
+	<include file="resource/struts/struts-searchArbitmanInForUser.xml" />
+	<include file="resource/struts/struts-showArbitmanIn.xml" />
+	<include file="resource/struts/struts-tqMessage.xml" />
+	<include file="resource/struts/struts-myDownlog.xml" />
+	<include file="resource/struts/struts-lawLink.xml" />
+	
+	<include file="resource/struts/struts-arbitman.xml" />
+	<include file="resource/struts/struts-educate.xml" />
+	<include file="resource/struts/struts-industry.xml" />
+	<include file="resource/struts/struts-resume.xml" />
+	<include file="resource/struts/struts-language.xml" />
+	<include file="resource/struts/struts-arbitmanAtt.xml" />
+	<include file="resource/struts/struts-arbitmanIn.xml" />
+	<include file="resource/struts/struts-educateIn.xml" />
+	<include file="resource/struts/struts-industryIn.xml" />
+	<include file="resource/struts/struts-resumeIn.xml" />
+	<include file="resource/struts/struts-languageIn.xml" />
+	
+	<include file="resource/struts/struts-arbitmanAttIn.xml" />
+	<include file="resource/struts/struts-arbitmanSub.xml" />
+	<include file="resource/struts/struts-educateSub.xml" />
+	<include file="resource/struts/struts-industrySub.xml" />
+	<include file="resource/struts/struts-resumeSub.xml" />
+	<include file="resource/struts/struts-languageSub.xml" />
+	
+	<include file="resource/struts/struts-caseApply.xml" />
+	<include file="resource/struts/struts-party.xml" />
+	<include file="resource/struts/struts-party2.xml" />
+	<include file="resource/struts/struts-agent.xml" />
+	<include file="resource/struts/struts-partyRequest.xml" />
+	<include file="resource/struts/struts-contractsign.xml" />
+	<include file="resource/struts/struts-caseAtt.xml" />
+	
+	<include file="resource/struts/struts-myNotify.xml" />	
+	<include file="resource/struts/struts-myPropose.xml" />	
+	<include file="resource/struts/struts-myHandbook.xml" />
+	<include file="resource/struts/struts-myTrain.xml" />
+	
+	<include file="resource/struts/struts-arbitmanCaseIn.xml" />
+	<include file="resource/struts/struts-arbitmanCaseAttIn.xml" />
+	<include file="resource/struts/struts-arbitmanEvaluateInfo.xml" />
+	<include file="resource/struts/struts-evaluateArbitmanToArbitman.xml" />
+	<include file="resource/struts/struts-evaluateArbitmanToAssistant.xml" />
+	<include file="resource/struts/struts-arbitmanRewardBeforeIn.xml" />
+	<include file="resource/struts/struts-arbitmanRewardAfterIn.xml" />
+	<include file="resource/struts/struts-arbitmanCaseInfoIn.xml" />
+	<include file="resource/struts/struts-arbitmanCaseTerm.xml" />
+	<include file="resource/struts/struts-arbitmanCaseTime.xml" />
+	
+
+	<include file="resource/struts/struts-partyCaseIn.xml" />
+	<include file="resource/struts/struts-evaluatePartyToArbitman.xml" />
+	<include file="resource/struts/struts-evaluatePartyToAssistant.xml" />
+	<include file="resource/struts/struts-partyCaseMessage.xml" />
+	<include file="resource/struts/struts-partyCaseAttIn.xml" />
+	<include file="resource/struts/struts-partyAppointArbitman.xml" />
+	<include file="resource/struts/struts-selectArbitmanInForUser.xml" />
+	
+	<include file="resource/struts/struts-assistantCaseIn.xml" />
+	<include file="resource/struts/struts-assistantEvaluateInfo.xml" />
+	<include file="resource/struts/struts-evaluateAssistantToArbitman.xml" />
+	<include file="resource/struts/struts-assistantCaseTerm.xml" />
+	
+</struts>

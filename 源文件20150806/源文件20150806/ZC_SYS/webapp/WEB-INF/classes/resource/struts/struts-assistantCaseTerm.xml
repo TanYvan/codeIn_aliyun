@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="assistantCaseTerm" extends="common" namespace="/assistantCaseTerm">
+		<action name="list" class="AssistantCaseTermAction" method="list">
+			<result name="success">/WEB-INF/pages/assistantCaseTerm/list.jsp</result>
+		</action>
+	</package>
+</struts>
+

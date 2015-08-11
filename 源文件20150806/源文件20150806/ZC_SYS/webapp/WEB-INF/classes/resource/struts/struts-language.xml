@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="language" extends="common" namespace="/language">
+		<action name="findLanguageList" class="LanguageAction" method="findLanguageList">
+			<result name="success">/WEB-INF/pages/language/list.jsp</result>
+		</action>
+		<action name="toInsertLanguage" class="LanguageAction" method="toInsertLanguage" >
+			<result name="success">/WEB-INF/pages/language/new.jsp</result>
+		</action>
+		<action name="insertLanguage" class="LanguageAction" method="insertLanguage">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/language</param> 
+				<param name="actionName">findLanguageList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdateLanguage" class="LanguageAction" method="toUpdateLanguage">
+			<result name="success">/WEB-INF/pages/language/edit.jsp</result>
+		</action>
+		<action name="updateLanguage" class="LanguageAction" method="updateLanguage">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/language</param> 
+				<param name="actionName">findLanguageList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="deleteLanguage" class="LanguageAction" method="deleteLanguage">
+		    <result name="success" type="redirectAction">
+			    <param name="namespace">/language</param> 
+				<param name="actionName">findLanguageList.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

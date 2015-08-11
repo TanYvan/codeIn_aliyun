@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="region" extends="common" namespace="/region">
+		<action name="regionTree" class="RegionAction" method="regionTree">
+            <result name="success">/WEB-INF/pages/region/region_tree.jsp</result>
+		</action>
+		<action name="makeTree" class="RegionAction" method="makeTree">
+			<result name="result" type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

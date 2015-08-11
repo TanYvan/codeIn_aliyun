@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="partyCaseIn" extends="common" namespace="/partyCaseIn">
+		<action name="findPartyCaseInList" class="PartyCaseInAction" method="findPartyCaseInList">
+			<result name="success">/WEB-INF/pages/partyCaseIn/list.jsp</result>
+		</action>
+		
+		<action name="showPartyCaseIn" class="PartyCaseInAction" method="showPartyCaseIn">
+			<result name="success">/WEB-INF/pages/partyCaseIn/show.jsp</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/partyCaseIn</param> 
+				<param name="actionName">findPartyCaseInList.do</param>
+				<param name="encode">true</param>
+				<param name="returnUrl">/partyCaseIn/showPartyCaseIn.do</param>
+			</result>
+		</action>
+		
+		<action name="toCaseDocIn" class="PartyCaseInAction" method="toCaseDocIn">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseDocIn</param> 
+				<param name="actionName">list.do</param>
+			</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/partyCaseIn</param> 
+				<param name="actionName">findPartyCaseInList.do</param>
+			</result>
+		</action>
+		
+		<action name="toCaseBookIn" class="PartyCaseInAction" method="toCaseBookIn">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseBookIn</param> 
+				<param name="actionName">list.do</param>
+			</result>
+			<result name="select_case" type="redirectAction">
+			    <param name="namespace">/partyCaseIn</param> 
+				<param name="actionName">findPartyCaseInList.do</param>
+			</result>
+		</action>
+		
+	</package>
+</struts>
+

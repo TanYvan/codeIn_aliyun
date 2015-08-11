@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="agent" extends="common" namespace="/agent">
+		<action name="toInsertAgent" class="AgentAction" method="toInsertAgent">
+			<result name="success">/WEB-INF/pages/agent/new.jsp</result>
+		</action>
+		<action name="insertAgent" class="AgentAction" method="insertAgent">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">dlrxx</param>
+			</result>
+		</action>
+		<action name="toUpdateAgent" class="AgentAction" method="toUpdateAgent">
+			<result name="success">/WEB-INF/pages/agent/edit.jsp</result>
+		</action>
+		<action name="updateAgent" class="AgentAction" method="updateAgent">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">dlrxx</param>
+			</result>
+		</action>
+		<action name="deleteAgent" class="AgentAction" method="deleteAgent">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">dlrxx</param>
+			</result>
+		</action>
+		<action name="select" class="AgentAction" method="select">
+			<result name="success">/WEB-INF/pages/agent/select.jsp</result>
+		</action>
+		<action name="selectInsertAgent" class="AgentAction" method="selectInsertAgent">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/caseApply</param> 
+				<param name="actionName">toUpdateCaseApply.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+				<param name="anchor">dlrxx</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

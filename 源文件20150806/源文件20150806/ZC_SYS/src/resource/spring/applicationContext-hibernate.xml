@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="true">
+
+	<bean id="sessionFactory"
+		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="dataSource" />
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">
+					org.hibernate.dialect.MySQLDialect
+				</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.query.factory_class">org.hibernate.hql.ast.ASTQueryTranslatorFactory</prop>
+				<prop key="hibernate.cache.provider_class">
+					<!--org.hibernate.cache.HashtableCacheProvider-->
+					org.hibernate.cache.EhCacheProvider
+				</prop>
+				<prop key="hibernate.cache.use_query_cache">true</prop>
+			</props>
+		</property>
+		<property name="annotatedClasses">
+			<list>
+				<value>cn.com.zc.model.ArbitmanPublic</value>
+				<value>cn.com.zc.model.ArbitmanPublicNow</value>
+				<value>cn.com.zc.model.Dictionary</value>
+				<value>cn.com.zc.model.DocFormat</value>
+				<value>cn.com.zc.model.User</value>
+				<value>cn.com.zc.model.Pages</value>
+				<value>cn.com.zc.model.Menus</value>
+				<value>cn.com.zc.model.Roles</value>
+				<value>cn.com.zc.model.Urs</value>
+				<value>cn.com.zc.model.Duties</value>
+				<value>cn.com.zc.model.UserDuties</value>
+				<value>cn.com.zc.model.SysArgs</value>
+				<value>cn.com.zc.model.QuickMenus</value>
+				<value>cn.com.zc.model.Region</value>
+				<value>cn.com.zc.model.Notify</value>
+				<value>cn.com.zc.model.Handbook</value>
+				<value>cn.com.zc.model.Train</value>
+				<value>cn.com.zc.model.TrainReg</value>
+				<value>cn.com.zc.model.Propose</value>
+				<value>cn.com.zc.model.ProposeReply</value>
+				<value>cn.com.zc.model.Downlog</value>
+				<value>cn.com.zc.model.Wuser</value>
+				<value>cn.com.zc.model.Arbitman</value>
+				<value>cn.com.zc.model.ArbitmanAtt</value>
+				<value>cn.com.zc.model.Attachment</value>
+				<value>cn.com.zc.model.Educate</value>
+				<value>cn.com.zc.model.Special</value>
+				<value>cn.com.zc.model.Industry</value>
+				<value>cn.com.zc.model.Resume</value>
+				<value>cn.com.zc.model.Language</value>
+				<value>cn.com.zc.model.Educate</value>
+				<value>cn.com.zc.model.Special</value>
+				<value>cn.com.zc.model.Resume</value>
+				<value>cn.com.zc.model.AttachmentConfig</value>
+				<value>cn.com.zc.model.CaseApplyBase</value>
+				<value>cn.com.zc.model.CaseAtt</value>
+				<value>cn.com.zc.model.Party</value>
+				<value>cn.com.zc.model.Agent</value>
+				<value>cn.com.zc.model.PartyRequest</value>
+				<value>cn.com.zc.model.Contractsign</value>
+			    <value>cn.com.zc.model.Evaluate</value>
+			    
+			</list>
+		</property>
+	</bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url"
+			value="jdbc:mysql://localhost:3306/zc_extranet?characterEncoding=utf-8" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+	</bean>
+
+
+	<bean id="transactionManager"
+		class="org.springframework.orm.hibernate3.HibernateTransactionManager">
+		<property name="sessionFactory" ref="sessionFactory" />
+	</bean>
+
+	<bean id="transactionInterceptor"
+		class="org.springframework.transaction.interceptor.TransactionInterceptor">
+		<property name="transactionManager">
+			<ref bean="transactionManager" />
+		</property>
+		<property name="transactionAttributes">
+			<props>
+				<prop key="*">PROPAGATION_REQUIRED</prop>
+			</props>
+		</property>
+	</bean>
+</beans>

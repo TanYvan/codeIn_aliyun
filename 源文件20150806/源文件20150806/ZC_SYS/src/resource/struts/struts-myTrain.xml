@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="myTrain" extends="common" namespace="/myTrain">
+		<action name="list" class="MyTrainAction" method="list">
+			<result name="success">/WEB-INF/pages/myTrain/list.jsp</result>
+		</action>
+		<action name="show" class="MyTrainAction" method="show">
+			<result name="success">/WEB-INF/pages/myTrain/show.jsp</result>
+		</action>
+		<action name="reg" class="MyTrainAction" method="reg">
+			<result name="success">/WEB-INF/pages/myTrain/reg.jsp</result>
+		</action>
+		<action name="insert" class="MyTrainAction" method="insert">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/myTrain</param> 
+				<param name="actionName">list.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="regCancel" class="MyTrainAction" method="regCancel">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/myTrain</param> 
+				<param name="actionName">list.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="myRegList" class="MyTrainAction" method="myRegList">
+			<result name="success">/WEB-INF/pages/myTrain/my_reg_list.jsp</result>
+		</action>
+	</package>
+</struts>
+

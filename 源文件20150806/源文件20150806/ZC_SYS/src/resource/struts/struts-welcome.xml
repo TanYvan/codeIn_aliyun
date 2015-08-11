@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="welcome" extends="common" namespace="/welcome">
+		<action name="index" class="WelcomeAction" method="index">
+			<result name="success">/WEB-INF/pages/welcome/index.jsp</result>
+		</action>
+		
+		<action name="locale" class="WelcomeAction" method="locale">
+			<result name="success" type="redirectAction">index.do</result>
+		</action>
+		
+		<action name="toFindPsd_1" class="WelcomeAction" method="toFindPsd_1">
+			<result name="success">/WEB-INF/pages/welcome/toFindPsd_1.jsp</result>
+		</action>
+		
+		<action name="findPsd_1" class="WelcomeAction" method="findPsd_1">
+			<result name="success">/WEB-INF/pages/welcome/findPsd_1.jsp</result>
+		</action>
+		
+		<action name="toFindPsd_2" class="WelcomeAction" method="toFindPsd_2">
+			<result name="success">/WEB-INF/pages/welcome/toFindPsd_2.jsp</result>
+		</action>
+		
+		<action name="findPsd_2" class="WelcomeAction" method="findPsd_2">
+			<result name="success">/WEB-INF/pages/welcome/findPsd_2.jsp</result>
+		</action>
+		
+		<action name="login" class="WelcomeAction" method="login">
+			<result name="success">/WEB-INF/pages/welcome/login.jsp</result>
+		</action>
+		<action name="loginDo" class="WelcomeAction" method="loginDo">
+			<result name="success" type="redirectAction">main.do</result>
+			<result name="fail" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		
+		<action name="login_1" class="WelcomeAction" method="login_1">
+			<result name="success">/WEB-INF/pages/welcome/login_1.jsp</result>
+		</action>
+		<action name="loginDo_1" class="WelcomeAction" method="loginDo_1">
+			<result name="success" type="redirectAction">main.do</result>
+			<result name="fail" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login_1.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		
+		<action name="login_2" class="WelcomeAction" method="login_2">
+			<result name="success">/WEB-INF/pages/welcome/login_2.jsp</result>
+		</action>
+		<action name="loginDo_2" class="WelcomeAction" method="loginDo_2">
+			<result name="success" type="redirectAction">main.do</result>
+			<result name="fail" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login_2.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		
+		<action name="login_3" class="WelcomeAction" method="login_3">
+			<result name="success">/WEB-INF/pages/welcome/login_3.jsp</result>
+		</action>
+		<action name="loginDo_3" class="WelcomeAction" method="loginDo_3">
+			<result name="success" type="redirectAction">main.do</result>
+			<result name="fail" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login_3.do</param>
+				<param name="encode">true</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+
+		<action name="logout" class="WelcomeAction" method="logout">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login.do</param>
+				<param name="encode">true</param>
+			</result>
+			<result name="success1" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login_1.do</param>
+				<param name="encode">true</param>
+			</result>
+			<result name="success2" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login_2.do</param>
+				<param name="encode">true</param>
+			</result>
+			<result name="success3" type="redirectAction">
+			    <param name="namespace">/welcome</param> 
+				<param name="actionName">login_3.do</param>
+				<param name="encode">true</param>
+			</result>
+			<result name="success4">/WEB-INF/pages/welcome/index.jsp</result>
+		</action>
+		
+		<action name="toChangePassword" class="WelcomeAction" method="toChangePassword">
+			<result name="success">/WEB-INF/pages/welcome/toChangePassword.jsp</result>
+		</action>
+		
+		<action name="changePassword" class="WelcomeAction" method="changePassword">
+			<result name="success">/WEB-INF/pages/welcome/changePassword.jsp</result>
+		</action>
+		
+		<action name="main" class="WelcomeAction" method="main">
+			<result name="success">/WEB-INF/pages/welcome/main.jsp</result>
+		</action>
+		<action name="mainFrame" class="WelcomeAction" method="mainFrame">
+			<result name="success">/WEB-INF/pages/welcome/mainFrame.jsp</result>
+		</action>
+		<action name="top" class="WelcomeAction" method="top">
+			<result name="success" >/WEB-INF/pages/welcome/top.jsp</result>
+		</action>
+		<action name="menu" class="WelcomeAction" method="menu">
+			<result name="success" >/WEB-INF/pages/welcome/menu.jsp</result>
+		</action>
+		<action name="desk" class="WelcomeAction" method="desk">
+			<result name="success" >/WEB-INF/pages/welcome/desk.jsp</result>
+		</action>
+		<action name="bottom" class="WelcomeAction" method="bottom">
+			<result name="success" >/WEB-INF/pages/welcome/bottom.jsp</result>
+		</action>
+		<action name="readMeForParty" class="WelcomeAction" method="readMeForParty">
+			<result name="success" >/WEB-INF/pages/welcome/read_me_for_party.jsp</result>
+		</action>
+		<action name="checkSameKey" class="WelcomeAction" method="checkSameKey">
+			<result name="result" type="json">
+				<param name="root">result</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

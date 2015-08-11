@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="myPropose" extends="common" namespace="/myPropose">
+		<action name="findMyProposeList" class="MyProposeAction" method="findMyProposeList">
+			<result name="success">/WEB-INF/pages/myPropose/list.jsp</result>
+		</action>
+		<action name="toInsertMyPropose" class="MyProposeAction" method="toInsertMyPropose">
+			<result name="success">/WEB-INF/pages/myPropose/new.jsp</result>
+		</action>
+		<action name="insertMyPropose" class="MyProposeAction" method="insertMyPropose">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/myPropose</param> 
+				<param name="actionName">findMyProposeList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="showMyPropose" class="MyProposeAction" method="showMyPropose">
+			<result name="success">/WEB-INF/pages/myPropose/show.jsp</result>
+		</action>
+	</package>
+</struts>
+

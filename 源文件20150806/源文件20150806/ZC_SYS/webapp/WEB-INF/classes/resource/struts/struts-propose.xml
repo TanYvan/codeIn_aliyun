@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="propose" extends="common" namespace="/propose">
+		<action name="findProposeList" class="ProposeAction" method="findProposeList">
+			<result name="success">/WEB-INF/pages/propose/list.jsp</result>
+		</action>
+		<action name="toInsertPropose">
+			<result name="success">/WEB-INF/pages/propose/new.jsp</result>
+		</action>
+		<action name="insertPropose" class="ProposeAction" method="insertPropose">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/propose</param> 
+				<param name="actionName">findProposeList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdatePropose" class="ProposeAction" method="toUpdatePropose">
+			<result name="success">/WEB-INF/pages/propose/edit.jsp</result>
+		</action>
+		<action name="updatePropose" class="ProposeAction" method="updatePropose">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/propose</param> 
+				<param name="actionName">findProposeList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="deletePropose" class="ProposeAction" method="deletePropose">
+		    <result name="success" type="redirectAction">
+			    <param name="namespace">/propose</param> 
+				<param name="actionName">findProposeList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+	</package>
+</struts>
+

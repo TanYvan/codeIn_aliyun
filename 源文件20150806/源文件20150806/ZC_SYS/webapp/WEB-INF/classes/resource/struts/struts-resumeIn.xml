@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="resumeIn" extends="common" namespace="/resumeIn">
+		<action name="findResumeInList" class="ResumeInAction" method="findResumeInList">
+			<result name="success">/WEB-INF/pages/resumeIn/list.jsp</result>
+		</action>
+		<action name="toInsertResumeIn" class="ResumeInAction" method="toInsertResumeIn">
+			<result name="success">/WEB-INF/pages/resumeIn/new.jsp</result>
+		</action>
+		<action name="insertResumeIn" class="ResumeInAction" method="insertResumeIn">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/resumeIn</param> 
+				<param name="actionName">findResumeInList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="toUpdateResumeIn" class="ResumeInAction" method="toUpdateResumeIn">
+			<result name="success">/WEB-INF/pages/resumeIn/edit.jsp</result>
+		</action>
+		<action name="updateResumeIn" class="ResumeInAction" method="updateResumeIn">
+			<result name="success" type="redirectAction">
+			    <param name="namespace">/resumeIn</param> 
+				<param name="actionName">findResumeInList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+		<action name="deleteResumeIn" class="ResumeInAction" method="deleteResumeIn">
+		    <result name="success" type="redirectAction">
+			    <param name="namespace">/resumeIn</param> 
+				<param name="actionName">findResumeInList.do</param>
+				<param name="error">${error}</param>
+			</result>
+		</action>
+	</package>
+</struts>
+
